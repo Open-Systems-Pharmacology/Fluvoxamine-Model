@@ -13,7 +13,7 @@ Everyone interacting in the Open Systems Pharmacology community (codebases, issu
 We encourage contribution to the Open Systems Pharmacology community. Before getting started please read the [contribution guidelines](https://github.com/Open-Systems-Pharmacology/Suite/blob/master/CONTRIBUTING.md#ways-to-contribute). If you are contributing code, please be familiar with the [coding standard](https://github.com/Open-Systems-Pharmacology/Suite/blob/master/CODING_STANDARDS.md#visual-studio-settings).
 
 ## License
-The IFN-alpha model code is distributed under the [GPLv2 License](https://github.com/Open-Systems-Pharmacology/Suite/blob/develop/LICENSE).
+The model code is distributed under the [GPLv2 License](https://github.com/Open-Systems-Pharmacology/Suite/blob/develop/LICENSE).
 
 ## Reference
 [[1] Britz H, Hanke N, Volz AK, Spigset O, Schwab M, Eissing T, Wendl T, Frechen S, Lehr T. PBPK models for CYP1A2 DDI prediction: a modelling network of fluvoxamine, theophylline, caffeine, rifampicin and midazolam. CPT Pharmacometrics Syst Pharmacol 2019, https://ascpt.onlinelibrary.wiley.com/doi/abs/10.1002/psp4.12397.](https://ascpt.onlinelibrary.wiley.com/doi/abs/10.1002/psp4.12397)
