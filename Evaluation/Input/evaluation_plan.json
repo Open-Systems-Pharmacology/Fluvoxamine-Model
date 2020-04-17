@@ -1,9 +1,9 @@
 {
-    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.0/OSP_Qualification_Plan_Schema.json",
+    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.1/OSP_Qualification_Plan_Schema.json",
     "Projects": [
         {
             "Id": "Fluvoxamine-Model",
-            "Path": "https://raw.githubusercontent.com/LMFuhr/Fluvoxamine-Model/master/Fluvoxamine-Model.json",
+            "Path": "../../Fluvoxamine-Model.json",
             "BuildingBlocks": [],
             "SimulationParameters": []
         }
