@@ -4,5 +4,7 @@ Fluvoxamine is a selective serotonin reuptake inhibitor used to treat major depr
 
 The aim of this project was to develop a PBPK model of fluvoxamine, mechanistically describing its metabolism by CYP1A2 and CYP2D6 and its inhibitory effect on CYP1A2 and CYP3A4, that can be used for drug-drug interaction (DDI) predictions.
 
-The presented model was developed and evaluated by Britz et al. ([Britz 2019](#5 References))
+The presented PBPK model was developed and evaluated by Britz et al. ([Britz 2019](#5 References)). The PBPK model as well as the respective evaluation plan and evaluation report are provided open-source  (https://github.com/Open-Systems-Pharmacology/Fluvoxamine-Model). 
+
+
 

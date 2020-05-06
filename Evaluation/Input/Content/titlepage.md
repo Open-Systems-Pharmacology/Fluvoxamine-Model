@@ -2,8 +2,10 @@
 
 
 
-| Version     | 0.1  |
-| ----------- | ---- |
-| OSP Version | 8.0  |
-| Author      |      |
+| Version                         | 0.1                                                          |
+| ------------------------------- | ------------------------------------------------------------ |
+| Repository                      | https://github.com/Open-Systems-Pharmacology/Fluvoxamine-Model |
+| OSP Version                     | 8.0                                                          |
+| Qualification framework version | 2.1                                                          |
+| Author                          |                                     |
 
