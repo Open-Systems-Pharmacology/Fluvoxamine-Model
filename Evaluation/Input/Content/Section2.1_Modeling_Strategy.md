@@ -10,7 +10,7 @@ The model was then verified by simulating:
 - the effect of smoking on CYP1A2 metabolism of fluvoxamine
 - plasma levels of fluvoxamine in CYP2D6 extensive (EM) and poor metabolizers (PM).
 
-Details about input data (physicochemical, *in vitro* and clinical) can be found in [Section 2.2](#2.2	Data).
+Details about input data (physicochemical, *in vitro* and clinical) can be found in [Section 2.2](#22-Data).
 
-Details about the structural model and its parameters can be found in [Section 2.3](#2.3 Model Parameters and Assumptions).
+Details about the structural model and its parameters can be found in [Section 2.3](#23-Model-Parameters-and-Assumptions).
 

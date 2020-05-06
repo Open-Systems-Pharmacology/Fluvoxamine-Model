@@ -20,6 +20,7 @@ A literature search was performed to collect available information on physiochem
 | CYP1A2 Kiu (uncompetitive inhibition) | nmol/L   | 10.00       | [Karjalainen 2008](#5 References), [Yao 2001](#5 References) | Maximum inactivation rate                                    |
 | CYP3A4 Ki                             | µmol/L   | 1.60        | [Yao 2001](#5 References), [Olesen 2000](#5 References)      | Conc. for half-maximal inhibition                            |
 
+
 ### 2.2.2	Clinical Data
 
 A literature search was performed to collect available clinical data on fluvoxamine in healthy adults.
@@ -32,12 +33,12 @@ The following studies were used for model building (training data):
 
 | Publication                            | Arm / Treatment / Information used for model building        |
 | :------------------------------------- | :----------------------------------------------------------- |
-| [Japanese Society 2015](#5 References) | Healthy Japanese adults with 30 mg as 60 min infusion or oral administration of 200 mg |
-| [de Vries 1993](#5 References)         | Healthy adults with oral administration of 25-100 mg         |
-| [Orlando 2010](#5 References)          | Healthy adults with oral administration of 50 mg             |
-| [Labellarte 2004](#5 References)       | Healthy CYP2D6 EM with oral administration of 50 mg twice a day |
-| [Spigset 1998](#5 References)          | Healthy CYP2D6 EM (80%) and PM (20%) with oral administration of doses between 12.5-100 mg twice a day |
-| [Fleishaker 1994](#5 References)       | Healthy adults with oral administration of 50 mg or 100 mg once daily |
+| [Japanese Society 2015](#5-References) | Healthy Japanese adults with 30 mg as 60 min infusion or oral administration of 200 mg |
+| [de Vries 1993](#5-References)         | Healthy adults with oral administration of 25-100 mg         |
+| [Orlando 2010](#5-References)          | Healthy adults with oral administration of 50 mg             |
+| [Labellarte 2004](#5-References)       | Healthy CYP2D6 EM with oral administration of 50 mg twice a day |
+| [Spigset 1998](#5-References)          | Healthy CYP2D6 EM (80%) and PM (20%) with oral administration of doses between 12.5-100 mg twice a day |
+| [Fleishaker 1994](#5-References)       | Healthy adults with oral administration of 50 mg or 100 mg once daily |
 
 #### 2.2.2.2	Model Verification
 
@@ -45,14 +46,14 @@ The following studies were used for model verification:
 
 | Publication                            | Arm / Treatment / Information used for model building        |
 | :------------------------------------- | :----------------------------------------------------------- |
-| [Christensen 2002](#5 References)      | Healthy CYP2D6 EM with oral administration of 10 mg or 25 mg twice a day and healthy CYP2D6 PM with oral administration of 10 mg or 25 mg once daily |
-| [Fukasawa 2006](#5 References)         | Healthy Japanese adults with single oral doses of 50 mg      |
-| [Japanese Society 2015](#5 References) | Healthy Japanese adults with single oral doses of 25-100 mg  |
-| [Kunii 2005](#5 References)            | Healthy CYP2D6 EM with single oral doses of 50 mg            |
-| [Spigset 1995](#5 References)          | Healthy smokers or non-smokers with oral administration of 50 mg as single dose |
-| [Spigset 1997](#5 References)          | Healthy CYP2D6 EM or PM with oral administration of 50 mg as single dose |
-| [van Harten 1991](#5 References)       | Healthy adults  with oral administration of 50 mg as single dose |
-| [de Vries 1992](#5References)          | Healthy adults with oral administration of 50 mg twice a day |
-| [Bahrami 2007](#5 References)          | Healthy adults with oral administration of 100 mg as single dose |
-| [de Bree 1983](#5 References)          | Healthy adults with oral administration of 100 mg as single dose |
+| [Christensen 2002](#5-References)      | Healthy CYP2D6 EM with oral administration of 10 mg or 25 mg twice a day and healthy CYP2D6 PM with oral administration of 10 mg or 25 mg once daily |
+| [Fukasawa 2006](#5-References)         | Healthy Japanese adults with single oral doses of 50 mg      |
+| [Japanese Society 2015](#5-References) | Healthy Japanese adults with single oral doses of 25-100 mg  |
+| [Kunii 2005](#5-References)            | Healthy CYP2D6 EM with single oral doses of 50 mg            |
+| [Spigset 1995](#5-References)          | Healthy smokers or non-smokers with oral administration of 50 mg as single dose |
+| [Spigset 1997](#5-References)          | Healthy CYP2D6 EM or PM with oral administration of 50 mg as single dose |
+| [van Harten 1991](#5-References)       | Healthy adults  with oral administration of 50 mg as single dose |
+| [de Vries 1992](#5-References)          | Healthy adults with oral administration of 50 mg twice a day |
+| [Bahrami 2007](#5-References)          | Healthy adults with oral administration of 100 mg as single dose |
+| [de Bree 1983](#5-References)          | Healthy adults with oral administration of 100 mg as single dose |
 
