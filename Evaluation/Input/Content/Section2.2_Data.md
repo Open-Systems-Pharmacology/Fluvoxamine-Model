@@ -2,30 +2,28 @@
 
 A literature search was performed to collect available information on physiochemical properties of fluvoxamine. The obtained information from literature is summarized in the table below. 
 
-| **Parameter**                         | **Unit** | **Value**   | Source                                                       | **Description**                                              |
-| :------------------------------------ | -------- | ----------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| MW                                    | g/mol    | 318.34      | [Drugbank](#5 References)                                    | Molecular weight                                             |
-| pK<sub>a</sub>                        |          | 9.40 (base) | [Hallifax 2007](# 5 References)                              | Acid dissociation constant                                   |
-| Solubility (pH)                       | mg/mL    | 14.66 (7.0) | [MSDS](# 5 References)                                       | Solubility                                                   |
-| logP                                  |          | 2.80        | [Drugbank](#5 References) (predicted by ChemAxon)            | Partition coefficient between octanol and water              |
-|                                       |          | 2.89        | [Drugbank](#5 References) (predicted by ALOGPS)              | Partition coefficient between octanol and water              |
-|                                       |          | 3.20        | [Drugbank](#5 References) (experimentally measured)          | Partition coefficient between octanol and water              |
-| fu                                    | %        | 23.00       | [Claassen 1983](#5 References)                               | Fraction unbound in plasma                                   |
-| CYP2D6 Km                             | µmol/L   | 76.30       | [Miura 2007](#5 References)                                  | Michaelis-Menten constant                                    |
-| CYP2D6 kcat                           | 1/min    | 0           | [Crews 2014](#5 References)                                  | Renal plasma clearance                                       |
-| CYP1A2 Ki                             | µmol/L   | 0.011       | [Karjalainen 2008](#5 References)                            | Competitive inhibition constant of the competitive inhibition model measured in human liver microsomes |
-| CYP1A2 Ki_c                           |          |             | [Yao 2001](#5 References)                                    | Competitive inhibition constant of the mixed inhibition model measured in human liver microsomes |
-| CYP1A2 Ki_u                           |          |             | [Yao 2001](#5 References)                                    | Uncompetitive inhibition constant of the mixed inhibition model measured in human liver microsomes |
-| CYP1A2 Kic (competitive inhibition)   | nmol/L   | 10.00       | [Karjalainen 2008](#5 References), [Yao 2001](#5 References) | Conc. for half-maximal inactivation                          |
-| CYP1A2 Kiu (uncompetitive inhibition) | nmol/L   | 10.00       | [Karjalainen 2008](#5 References), [Yao 2001](#5 References) | Maximum inactivation rate                                    |
-| CYP3A4 Ki                             | µmol/L   | 1.60        | [Yao 2001](#5 References), [Olesen 2000](#5 References)      | Conc. for half-maximal inhibition                            |
+| **Parameter**          | **Unit** | **Value**   | Source                                              | **Description**                                              |
+| :--------------------- | -------- | ----------- | --------------------------------------------------- | ------------------------------------------------------------ |
+| MW                     | g/mol    | 318.34      | [Drugbank](#5-References)                           | Molecular weight                                             |
+| pK<sub>a</sub>         |          | 9.40 (base) | [Hallifax 2007](#5-References)                      | Acid dissociation constant                                   |
+| Solubility (pH)        | mg/mL    | 14.66 (7.0) | [MSDS](#5-References)                               | Solubility                                                   |
+| logP                   |          | 2.80        | [Drugbank](#5-References) (predicted by ChemAxon)   | Partition coefficient between octanol and water              |
+|                        |          | 2.89        | [Drugbank](#5-References) (predicted by ALOGPS)     | Partition coefficient between octanol and water              |
+|                        |          | 3.20        | [Drugbank](#5-References) (experimentally measured) | Partition coefficient between octanol and water              |
+| f<sub>u</sub>          | %        | 23.00       | [Claassen 1983](#5-References)                      | Fraction unbound in plasma                                   |
+| CYP2D6 K<sub>m</sub>   | µmol/L   | 76.30       | [Miura 2007](#5-References)                         | Michaelis-Menten constant                                    |
+| CYP2D6 k<sub>cat</sub> | 1/min    | 0           | [Crews 2014](#5-References)                         | Renal plasma clearance                                       |
+| CYP1A2 K<sub>i</sub>   | µmol/L   | 0.011       | [Karjalainen 2008](#5-References)                   | Competitive inhibition constant of the competitive inhibition model measured in human liver microsomes |
+| CYP1A2 K<sub>i,c</sub> | nmol/L   | 10.00       |                                                     | Competitive inhibition constant of the mixed inhibition model measured in human liver microsomes |
+| CYP1A2 K<sub>i,u</sub> | nmol/L   | 10.00       |                                                     | Uncompetitive inhibition constant of the mixed inhibition model measured in human liver microsomes |
+| CYP3A4 K<sub>i</sub>   | µmol/L   | 1.60        | [Olesen 2000](#5-References)                        | Competitive inhibition constant of the competitive inhibition model measured in human liver microsomes |
 
 
 ### 2.2.2	Clinical Data
 
 A literature search was performed to collect available clinical data on fluvoxamine in healthy adults.
 
-The fluvoxamine PBPK model was developed using 26 different clinical studies with pharmacokinetic (PK) blood sampling. These studies include 1 study of 30 mg fluvoxamine administered intravenously (iv) as a single-dose, and 25 studies of fluvoxamine administered orally (po) in single- or multiple-doses. In the single-dose (s.d.) po studies fluvoxamine was administered in doses of 25 - 200 mg. In the multiple-dose po studies fluvoxamine was administered once (q.d.) or twice daily (b.i.d.), in doses of 10 - 150 mg per administration.
+The fluvoxamine PBPK model was developed using 26 different clinical studies with pharmacokinetic (PK) blood sampling. These studies include 1 study of 30 mg fluvoxamine administered intravenously (iv) as a single-dose, and 25 studies of fluvoxamine administered orally (po) in single- or multiple-doses. In the single-dose po studies fluvoxamine was administered in doses of 25 - 200 mg. In the multiple-dose po studies fluvoxamine was administered once (q.d.) or twice daily (b.i.d.), in doses of 10 - 150 mg per administration.
 
 #### 2.2.2.1	Model Building
 
