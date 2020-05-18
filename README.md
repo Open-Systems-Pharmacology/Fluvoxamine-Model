@@ -1,7 +1,7 @@
 # Fluvoxamine-Model
 Whole-body PBPK model of fluvoxamine. 
 
-<a title="Vaccinationist / Public domain" href="https://commons.wikimedia.org/wiki/File:Fluvoxamine.svg"><img width="256" alt="Fluvoxamine" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Fluvoxamine.svg/256px-Fluvoxamine.svg.png"></a>
+<a title="Fluvoxamine" href="https://commons.wikimedia.org/wiki/File:Fluvoxamine.svg"><img width="256" alt="Fluvoxamine" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Fluvoxamine.svg/256px-Fluvoxamine.svg.png"></a>
 
 
 
