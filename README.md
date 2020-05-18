@@ -1,11 +1,23 @@
 # Fluvoxamine-Model
 Whole-body PBPK model of fluvoxamine. 
 
-**The latest release of this model including a report on model building, model features and model evaluation can be found [here](../../releases/latest).**
-
 <p align="center">
   <img src="Fluvoxamine.png">
 </p> 
+
+
+
+This repository contains:
+
+- a PK-Sim snapshot (*.json) file of the current PBPK model
+- static content (e.g. text blocks, *.md files) as inputs for an evaluation plan
+- an evaluation plan (evaluation-plan.json) to create an evaluation report using the snapshot and static text blocks to display the performance of the model
+
+**The latest release of the snapshot of the model, the evaluation plan and the static content can be found [here](../../releases/latest).**
+
+**The latest release of the PK-Sim project model file and the respective evaluation report can be found [here](https://github.com/Open-Systems-Pharmacology/OSP-PBPK-Model-Library/releases/latest).**
+
+
 
 Fluvoxamine is a selective serotonin reuptake inhibitor used to treat major depression and obsessive compulsive disorder. The U.S. Food and Drug Administration (FDA) recommends fluvoxamine as strong clinical CYP1A2 and CYP2C19 index inhibitor to evaluate the impact of CYP1A2/CYP2C19 inhibition on CYP1A2/CYP2C19 substrates. Furthermore, the fluvoxamine acts as weak to moderate CYP3A4 inhibitor.
 
