@@ -2,22 +2,29 @@
 
 A literature search was performed to collect available information on physiochemical properties of fluvoxamine. The obtained information from literature is summarized in the table below. 
 
-| **Parameter**          | **Unit** | **Value**   | Source                                              | **Description**                                              |
-| :--------------------- | -------- | ----------- | --------------------------------------------------- | ------------------------------------------------------------ |
-| MW                     | g/mol    | 318.34      | [Drugbank](#5-References)                           | Molecular weight                                             |
-| pK<sub>a</sub>         |          | 9.40 (base) | [Hallifax 2007](#5-References)                      | Acid dissociation constant                                   |
-| Solubility (pH)        | mg/mL    | 14.66 (7.0) | [MSDS](#5-References)                               | Solubility                                                   |
-| logP                   |          | 2.80        | [Drugbank](#5-References) (predicted by ChemAxon)   | Partition coefficient between octanol and water              |
-|                        |          | 2.89        | [Drugbank](#5-References) (predicted by ALOGPS)     | Partition coefficient between octanol and water              |
-|                        |          | 3.20        | [Drugbank](#5-References) (experimentally measured) | Partition coefficient between octanol and water              |
-| f<sub>u</sub>          | %        | 23.00       | [Claassen 1983](#5-References)                      | Fraction unbound in plasma                                   |
-| CYP2D6 K<sub>m</sub>   | µmol/L   | 76.30       | [Miura 2007](#5-References)                         | Michaelis-Menten constant                                    |
-| CYP2D6 k<sub>cat</sub> | 1/min    | 0           | [Crews 2014](#5-References)                         | Renal plasma clearance                                       |
-| CYP1A2 K<sub>i</sub>   | µmol/L   | 0.011       | [Karjalainen 2008](#5-References)                   | Competitive inhibition constant of the competitive inhibition model measured in human liver microsomes |
-| CYP1A2 K<sub>i,c</sub> | nmol/L   | 10.00       |                                                     | Competitive inhibition constant of the mixed inhibition model measured in human liver microsomes |
-| CYP1A2 K<sub>i,u</sub> | nmol/L   | 10.00       |                                                     | Uncompetitive inhibition constant of the mixed inhibition model measured in human liver microsomes |
-| CYP3A4 K<sub>i</sub>   | µmol/L   | 1.60        | [Olesen 2000](#5-References)                        | Competitive inhibition constant of the competitive inhibition model measured in human liver microsomes |
+| **Parameter**          | **Unit** | **Value**               | Source                                              | **Description**                                              |
+| :--------------------- | -------- | ----------------------- | --------------------------------------------------- | ------------------------------------------------------------ |
+| MW                     | g/mol    | 318.34                  | [Drugbank](#5-References)                           | Molecular weight                                             |
+| pK<sub>a</sub>         |          | 9.40 (base)             | [Hallifax 2007](#5-References)                      | Acid dissociation constant                                   |
+| Solubility (pH)        | mg/mL    | 14.66 (7.0)             | [MSDS](#5-References)                               | Solubility                                                   |
+| logP                   |          | 2.80                    | [Drugbank](#5-References) (predicted by ChemAxon)   | Partition coefficient between octanol and water              |
+|                        |          | 2.89                    | [Drugbank](#5-References) (predicted by ALOGPS)     | Partition coefficient between octanol and water              |
+|                        |          | 3.20                    | [Drugbank](#5-References) (experimentally measured) | Partition coefficient between octanol and water              |
+| f<sub>u</sub>          |          | 0.13 ± 0.01<sup>a</sup> | [Yao 2001](#5-References)                           | Fraction unbound in plasma                                   |
+|                        |          | 0.14 ± 0.02<sup>a</sup> | [Yao 2001](#5-References)                           | Fraction unbound in plasma                                   |
+|                        |          | 0.23                    | [Claassen 1983](#5-References)                      | Fraction unbound in plasma                                   |
+| f<sub>u,mic</sub>      |          | 0.20 ± 0.05<sup>a</sup> | [Yao 2001](#5-References)                           | Fraction unbound in human liver microsomes at a protein concentration of 1 mg/mL |
+|                        |          | 0.31 ± 0.03<sup>a</sup> | [Yao 2001](#5-References)                           | Fraction unbound in human liver microsomes at a protein concentration of 0.5 mg/mL |
+|                        |          | 0.70 ± 0.03<sup>a</sup> | [Yao 2001](#5-References)                           | Fraction unbound in supersomes at a protein concentration of 0.3 mg/mL |
+| CYP2D6 K<sub>m</sub>   | µmol/L   | 76.30                   | [Miura 2007](#5-References)                         | Michaelis-Menten constant                                    |
+| CYP2D6 k<sub>cat</sub> | 1/min    | 0                       | [Crews 2014](#5-References)                         | Renal plasma clearance                                       |
+| CYP1A2 K<sub>i</sub>   | µmol/L   | 0.011                   | [Karjalainen 2008](#5-References)                   | Competitive inhibition constant of the competitive inhibition model measured in human liver microsomes |
+| CYP1A2 K<sub>i,u</sub> | nmol/L   | 35                      | [Yao 2001](#5-References)                           | Unbound competitive inhibition constant of the mixed inhibition model measured in human liver microsomes at a protein concentration of 1 mg/mL |
+|                        | nmol/L   | 36                      | [Yao 2001](#5-References)                           | Competitive inhibition constant of the mixed inhibition model measured in human liver microsomes at a protein concentration of 0.5 mg/mL |
+|                        | nmol/L   | 36                      | [Yao 2001](#5-References)                           | Competitive inhibition constant of the mixed inhibition model measured in supersomes at a protein concentration of 0.3 mg/mL |
+| CYP3A4 K<sub>i</sub>   | µmol/L   | 1.60                    | [Olesen 2000](#5-References)                        | Competitive inhibition constant of the competitive inhibition model measured in human liver microsomes |
 
+<sup>a</sup> denotes mean ± standard deviation
 
 ### 2.2.2	Clinical Data
 
