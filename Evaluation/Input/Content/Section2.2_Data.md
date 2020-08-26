@@ -26,7 +26,7 @@ A literature search was performed to collect available information on physiochem
 
 <sup>a</sup> denotes mean ± standard deviation
 
-### 2.2.2	Clinical Data
+### 2.2.2 Clinical Data
 
 A literature search was performed to collect available clinical data on fluvoxamine in healthy adults.
 
