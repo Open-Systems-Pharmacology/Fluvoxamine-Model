@@ -1,27 +1,18 @@
-# Fluvoxamine-Model
-Whole-body PBPK model of fluvoxamine. 
-
-<a title="Fluvoxamine" href="https://commons.wikimedia.org/wiki/File:Fluvoxamine.svg"><img width="256" alt="Fluvoxamine" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Fluvoxamine.svg/256px-Fluvoxamine.svg.png"></a>
-
-
+# Fluvoxamine_CYP1A2_and_2C19_network-Model
+Whole-body PBPK model of fluvoxamine as an inhibitor of CYP2C19 and CYP1A2
 
 This repository contains:
 
-- a [PK-Sim snapshot (*.json) file](https://docs.open-systems-pharmacology.org/working-with-pk-sim/pk-sim-documentation/importing-exporting-project-data-models#exporting-project-to-snapshot-loading-project-from-snapshot) of the current PBPK model
+- a PK-Sim snapshot (*.json) file of the current PBPK model
 - static content (e.g. text blocks, *.md files) as inputs for an evaluation plan
 - an evaluation plan (evaluation-plan.json) to create an evaluation report using the snapshot and static text blocks to display the performance of the model
 
-**The latest release of the snapshot of the model, the evaluation plan and the static content can be found [here](../../releases/latest).**
+**The latest release of the snapshot of the model, the evaluation plan and the static content can be found [here](https://github.com/Open-Systems-Pharmacology/Fluvoxamine_CYP1A2_and_2C19_network-Model/releases/latest).**
 
 **The latest release of the PK-Sim project model file and the respective evaluation report can be found [here](https://github.com/Open-Systems-Pharmacology/OSP-PBPK-Model-Library/releases/latest).**
 
 
-
-Fluvoxamine is a selective serotonin reuptake inhibitor used to treat major depression and obsessive compulsive disorder. The U.S. Food and Drug Administration (FDA) recommends fluvoxamine as strong clinical CYP1A2 and CYP2C19 index inhibitor to evaluate the impact of CYP1A2/CYP2C19 inhibition on CYP1A2/CYP2C19 substrates. Furthermore, the fluvoxamine acts as weak to moderate CYP3A4 inhibitor.
-
-The PBPK model of fluvoxamine includes its metabolism by CYP1A2 and CYP2D6 and its inhibitory effect on CYP1A2 and CYP3A4.
-
-The presented model was developed by Britz et al. [[1](#References)].
+The presented PBPK model of fluvoxamine has been developed to be used in a PBPK Drug-DrugInteractions (DDI) network with fluvoxamine as an inhibitor of CYP2C19 and CYP1A2. The development of this model is described in the publication by Kanacher *et al.* [[1](https://github.com/Open-Systems-Pharmacology/Ethinylestradiol-Model#references)]
 
 ## Code of conduct
 Everyone interacting in the Open Systems Pharmacology community (codebases, issue trackers, chat rooms, mailing lists etc...) is expected to follow the Open Systems Pharmacology [code of conduct](https://github.com/Open-Systems-Pharmacology/Suite/blob/master/CODE_OF_CONDUCT.md#contributor-covenant-code-of-conduct).
@@ -33,4 +24,4 @@ We encourage contribution to the Open Systems Pharmacology community. Before get
 The model code is distributed under the [GPLv2 License](https://github.com/Open-Systems-Pharmacology/Suite/blob/develop/LICENSE).
 
 ## References
-[1] [Britz H, Hanke N, Volz AK, Spigset O, Schwab M, Eissing T, Wendl T, Frechen S, Lehr T. Physiologically-Based Pharmacokinetic Models for CYP1A2 Drug-Drug Interaction Prediction: A Modeling Network of Fluvoxamine, Theophylline, Caffeine, Rifampicin, and Midazolam. CPT Pharmacometrics Syst Pharmacol. 2019 May;8(5):296-307.](https://doi.org/10.1002/psp4.12397)
+[1] [Kanacher, T. et al. A Physiologically-Based Pharmacokinetic (PBPK) Model Network for the Prediction of CYP1A2 and CYP2C19 Drug–Drug–Gene Interactions with Fluvoxamine, Omeprazole, S-mephenytoin, Moclobemide, Tizanidine, Mexiletine, Ethinylestradiol, and Caffeine. Pharmaceutics 2020, 12(12), 1191](https://doi.org/10.3390/pharmaceutics12121191)

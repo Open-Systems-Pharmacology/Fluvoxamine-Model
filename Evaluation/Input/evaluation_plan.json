@@ -2,8 +2,8 @@
     "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.1/OSP_Qualification_Plan_Schema.json",
     "Projects": [
         {
-            "Id": "Fluvoxamine-Model",
-            "Path": "../../Fluvoxamine-Model.json",
+            "Id": "Fluvoxamine",
+            "Path": "../Fluvoxamine-Model.json",
             "BuildingBlocks": [],
             "SimulationParameters": []
         }
@@ -15,14 +15,14 @@
                 {
                     "Type": "X",
                     "Dimension": "Concentration (mass)",
-                    "Unit": "µg/l",
+                    "Unit": "ng/ml",
                     "GridLines": false,
                     "Scaling": "Log"
                 },
                 {
                     "Type": "Y",
                     "Dimension": "Concentration (mass)",
-                    "Unit": "µg/l",
+                    "Unit": "ng/ml",
                     "GridLines": false,
                     "Scaling": "Log"
                 }
@@ -54,7 +54,7 @@
                 {
                     "Type": "Y",
                     "Dimension": "Concentration (mass)",
-                    "Unit": "µg/l",
+                    "Unit": "ng/ml",
                     "GridLines": false,
                     "Scaling": "Log"
                 }
@@ -121,139 +121,74 @@
         },
         "AllPlots": [
             {
-                "Project": "Fluvoxamine-Model",
-                "Simulation": "Christensen 2002, 10 mg bid EM",
+                "Project": "Fluvoxamine",
+                "Simulation": "Iga2015 - IV - MM CYP2D6 - linear 1A2",
+                "SectionId": 331
+            },
+            {
+                "Project": "Fluvoxamine",
+                "Simulation": "DeVries1993 - 25mg PO - MM 2D6 - linear 1A2 fm",
+                "SectionId": 331
+            },
+            {
+                "Project": "Fluvoxamine",
+                "Simulation": "DeVries1993 - 50mg PO - MM 2D6 - linear 1A2 fm",
+                "SectionId": 331
+            },
+            {
+                "Project": "Fluvoxamine",
+                "Simulation": "50mg_oral_SD_entericCoated_PM",
+                "SectionId": 331
+            },
+            {
+                "Project": "Fluvoxamine",
+                "Simulation": "DeVries1993 - 100mg PO - MM 2D6 - linear1A2 fm",
+                "SectionId": 331
+            },
+            {
+                "Project": "Fluvoxamine",
+                "Simulation": "FDArev - 100mg PO single- MM 2D6 - linear1A2",
+                "SectionId": 331
+            },
+            {
+                "Project": "Fluvoxamine",
+                "Simulation": "FDArev- 100mg 10 days - MM 2D6 - linear 1A2",
+                "SectionId": 331
+            },
+            {
+                "Project": "Fluvoxamine",
+                "Simulation": "Labellarte2004 MAD PO - MM 2D6 - linear 1A2",
+                "SectionId": 331
+            },
+            {
+                "Project": "Fluvoxamine",
+                "Simulation": "Spigset 1998 MAD PO - MM 2D6 linear1A2",
+                "SectionId": 331
+            },
+            {
+                "Project": "Fluvoxamine",
+                "Simulation": "Fleishaker1994 - 50 -100 qd  CYP2D6 linear1A2 - multiplePO",
+                "SectionId": 331
+            },
+            {
+                "Project": "Fluvoxamine",
+                "Simulation": "50mg_oral_SD_entericCoated_MM2D6_linear1A2",
                 "SectionId": 332
             },
             {
-                "Project": "Fluvoxamine-Model",
-                "Simulation": "Christensen 2002, 10 mg QD PM",
+                "Project": "Fluvoxamine",
+                "Simulation": "FDArev- 100-200-300 day7_17_27_CRform - MM 2D6 linear1A2",
                 "SectionId": 332
             },
             {
-                "Project":  "Fluvoxamine-Model",
-                "Simulation":  "Christensen 2002, 25 mg bid EM",
-                "SectionId":  332
-            },
-            {
-                "Project":  "Fluvoxamine-Model",
-                "Simulation":  "Christensen 2002, 25 mg QD PM",
-                "SectionId":  332
-            },
-            {
-                "Project":  "Fluvoxamine-Model",
-                "Simulation":  "Spigset 1997, 50 mg SD EM",
-                "SectionId":  332
-            },
-            {
-                "Project":  "Fluvoxamine-Model",
-                "Simulation":  "Spigset 1997, 50 mg SD PM",
-                "SectionId":  332
-            },
-            {
-                "Project":  "Fluvoxamine-Model",
-                "Simulation":  "Japanese Society of Hospital Pharmacists 2015, 30 mg iv",
-                "SectionId":  331
-            },           
-            {
-                "Project":  "Fluvoxamine-Model",
-                "Simulation":  "de Vries 1992, 50 mg bid",
-                "SectionId":  331
-            },
-            {
-                "Project":  "Fluvoxamine-Model",
-                "Simulation":  "Fleishaker 1994, 50/100 mg QD",
-                "SectionId":  331
-            },
-            {
-                "Project":  "Fluvoxamine-Model",
-                "Simulation":  "Labellarte 2004, 150 mg bid",
-                "SectionId":  331
-            },
-            {
-                "Project":  "Fluvoxamine-Model",
-                "Simulation":  "Spigset 1998, 12.5/25/50/100 mg bid",
-                "SectionId":  331
-            },
-            {
-                "Project":  "Fluvoxamine-Model",
-                "Simulation":  "Bahrami 2007, 100 mg SD",
-                "SectionId":  332
-            },
-            {
-                "Project":  "Fluvoxamine-Model",
-                "Simulation":  "de Bree 1983, 100 mg SD",
-                "SectionId":  332
-            },
-            {
-                "Project":  "Fluvoxamine-Model",
-                "Simulation":  "de Vries 1993, 100 mg SD",
-                "SectionId":  331
-            },
-            {
-                "Project":  "Fluvoxamine-Model",
-                "Simulation":  "de Vries 1993, 25 mg SD",
-                "SectionId":  331
-            },
-            {
-                "Project":  "Fluvoxamine-Model",
-                "Simulation":  "de Vries 1993, 50 mg SD",
-                "SectionId":  331
-            },
-            {
-                "Project":  "Fluvoxamine-Model",
-                "Simulation":  "Fukasawa 2006, 50 mg SD EM",
-                "SectionId":  332
-            },
-            {
-                "Project":  "Fluvoxamine-Model",
-                "Simulation":  "Japanese Society of Hospital Pharmacists 2015, 100 mg SD",
-                "SectionId":  332
-            },
-            {
-                "Project":  "Fluvoxamine-Model",
-                "Simulation":  "Japanese Society of Hospital Pharmacists 2015, 200 mg SD",
-                "SectionId":  332
-            },
-            {
-                "Project":  "Fluvoxamine-Model",
-                "Simulation":  "Japanese Society of Hospital Pharmacists 2015, 25 mg SD",
-                "SectionId":  332
-            },
-            {
-                "Project":  "Fluvoxamine-Model",
-                "Simulation":  "Japanese Society of Hospital Pharmacists 2015, 50 mg SD",
-                "SectionId":  332
-            },
-            {
-                "Project":  "Fluvoxamine-Model",
-                "Simulation":  "Kunii 2005, 50 mg SD EM",
-                "SectionId":  332
-            },
-            {
-                "Project":  "Fluvoxamine-Model",
-                "Simulation":  "Orlando 2010, 50 mg SD",
-                "SectionId":  331
-            },
-            {
-                "Project":  "Fluvoxamine-Model",
-                "Simulation":  "van Harten 1991, 50 mg SD",
-                "SectionId":  332
-            },
-            {
-                "Project":  "Fluvoxamine-Model",
-                "Simulation":  "Spigset 1995, 50 mg SD EM non-smoker",
-                "SectionId":  332
-            },
-            {
-                "Project":  "Fluvoxamine-Model",
-                "Simulation":  "Spigset 1995, 50 mg SD EM smoker",
-                "SectionId":  332
-            }                                                                                                                                                                                                                                                                                                
+                "Project": "Fluvoxamine",
+                "Simulation": "Culm-Merdek_Fluvo_day3_MM2D6 - linear1A2",
+                "SectionId": 332
+            }
         ],
         "GOFMergedPlots": [
             {
-                "Title": "Goodness of fit plor for concentration in plasma",
+                "Title": "Fluvoxamine concentration in plasma - mean data",
                 "SectionId": 32,
                 "Artifacts": [
                     "Plot",
@@ -263,218 +198,231 @@
                 "PlotType": "predictedVsObserved|residualsOverTime",
                 "Groups": [
                     {
-                        "Caption": "training dataset",
-                        "Symbol": "Circle",
+                        "Caption": "iv administration (model building)",
+                        "Symbol": "Cross",
                         "OutputMappings": [
                             {
-                                "Project": "Fluvoxamine-Model",
-                                "Simulation": "Japanese Society of Hospital Pharmacists 2015, 30 mg iv",
+                                "Project": "Fluvoxamine",
+                                "Simulation": "Iga2015 - IV - MM CYP2D6 - linear 1A2",
                                 "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Japanese Society 2015.30 mg iv",
-                                "Color": "#0000FF"
-                            },
-                            {
-                                "Project": "Fluvoxamine-Model",
-                                "Simulation": "Labellarte 2004, 150 mg bid",
-                                "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Labellarte 2004.150 mg BID.EM",
-                                "Color": "#0000FF"
-                            },
-                            {
-                                "Project": "Fluvoxamine-Model",
-                                "Simulation": "de Vries 1993, 25 mg SD",
-                                "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "de Vries 1993.25 mg SD",
-                                "Color": "#0000FF"
-                            },
-                            {
-                                "Project": "Fluvoxamine-Model",
-                                "Simulation": "de Vries 1993, 50 mg SD",
-                                "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "de Vries 1993.50 mg SD",
-                                "Color": "#0000FF"
-                            },
-                            {
-                                "Project": "Fluvoxamine-Model",
-                                "Simulation": "Orlando 2010, 50 mg SD",
-                                "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Orlando 2010.50 mg SD",
-                                "Color": "#0000FF"
-                            },
-                            {
-                                "Project": "Fluvoxamine-Model",
-                                "Simulation": "de Vries 1993, 100 mg SD",
-                                "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "de Vries 1993.100 mg SD",
-                                "Color": "#0000FF"
-                            },
-                            {
-                                "Project": "Fluvoxamine-Model",
-                                "Simulation": "Japanese Society of Hospital Pharmacists 2015, 200 mg SD",
-                                "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Japanese Society 2015.200 mg SD",
-                                "Color": "#0000FF"
-                            },
-                            {
-                                "Project": "Fluvoxamine-Model",
-                                "Simulation": "Spigset 1998, 12.5/25/50/100 mg bid",
-                                "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Spigset 1998.100 mg BID.EM/PM.non-smoker", 
-                                "Color": "#0000FF"
-                            },
-                            {
-                                "Project": "Fluvoxamine-Model",
-                                "Simulation": "Spigset 1998, 12.5/25/50/100 mg bid",
-                                "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Spigset 1998.12.5 mg BID.EM/PM.non-smoker", 
-                                "Color": "#0000FF"
-                            },
-                            {
-                                "Project": "Fluvoxamine-Model",
-                                "Simulation": "Spigset 1998, 12.5/25/50/100 mg bid",
-                                "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Spigset 1998.25 mg BID.EM/PM.non-smoker", 
-                                "Color": "#0000FF"
-                            },
-                            {
-                                "Project": "Fluvoxamine-Model",
-                                "Simulation": "Spigset 1998, 12.5/25/50/100 mg bid",
-                                "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Spigset 1998.50 mg BID.EM/PM.non-smoker", 
-                                "Color": "#0000FF"
-                            },                                                                                    
-                            {
-                                "Project": "Fluvoxamine-Model",
-                                "Simulation": "Fleishaker 1994, 50/100 mg QD",
-                                "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Fleishaker 1994.100 mg QD.smoker/non-smoker",
-                                "Color": "#0000FF"
-                            }                                                                                                                
+                                "ObservedData": "Iga2015.Fluvoxamine.50mg.iv",
+                                "Color": "#FF8000"
+                            }
                         ]
                     },
                     {
-                        "Caption": "test dataset",
-                        "Symbol": "Square",
+                        "Caption": "Oral administration (model building)",
+                        "Symbol": "Triangle",
                         "OutputMappings": [
                             {
-                                "Project": "Fluvoxamine-Model",
-                                "Simulation": "Christensen 2002, 10 mg bid EM",
+                                "Project": "Fluvoxamine",
+                                "Simulation": "50mg_oral_SD_entericCoated_PM",
                                 "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Christensen 2002.10 mg BID.EM.non-smoker",
-                                "Color": "#FF0000"
+                                "ObservedData": "Carillo1996.Fluvoxamine.50mg.po.sd.Non-SmokingPM",
+                                "Color": "#FF8000"
                             },
                             {
-                                "Project": "Fluvoxamine-Model",
-                                "Simulation": "Christensen 2002, 10 mg QD PM",
+                                "Project": "Fluvoxamine",
+                                "Simulation": "DeVries1993 - 50mg PO - MM 2D6 - linear 1A2 fm",
                                 "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Christensen 2002.10 mg QD.PM.non-smoker",
-                                "Color": "#FF0000"
+                                "ObservedData": "DeVries1993.Fluvoxamine.50mg.po.solution",
+                                "Color": "#FF8000"
                             },
                             {
-                                "Project": "Fluvoxamine-Model",
-                                "Simulation": "Christensen 2002, 25 mg bid EM",
+                                "Project": "Fluvoxamine",
+                                "Simulation": "DeVries1993 - 25mg PO - MM 2D6 - linear 1A2 fm",
                                 "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Christensen 2002.25 mg BID.EM.non-smoker",
-                                "Color": "#FF0000"
+                                "ObservedData": "DeVries1993.Fluvoxamine.25mg.po.solution",
+                                "Color": "#FF8000"
                             },
                             {
-                                "Project": "Fluvoxamine-Model",
-                                "Simulation": "Christensen 2002, 25 mg QD PM",
+                                "Project": "Fluvoxamine",
+                                "Simulation": "DeVries1993 - 100mg PO - MM 2D6 - linear1A2 fm",
                                 "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Christensen 2002.25 mg QD.PM.non-smoker",
-                                "Color": "#FF0000"
+                                "ObservedData": "DeVries1993.Fluvoxamine.100mg.po.solution",
+                                "Color": "#FF8000"
                             },
                             {
-                                "Project": "Fluvoxamine-Model",
-                                "Simulation": "Japanese Society of Hospital Pharmacists 2015, 25 mg SD",
+                                "Project": "Fluvoxamine",
+                                "Simulation": "50mg_oral_SD_entericCoated_PM",
                                 "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Japanese Society 2015.25 mg SD",
-                                "Color": "#FF0000"
+                                "ObservedData": "Spigset1997.Fluvoxamine.50mg.sd.po.PM",
+                                "Color": "#FF8000"
                             },
                             {
-                                "Project": "Fluvoxamine-Model",
-                                "Simulation": "Fukasawa 2006, 50 mg SD EM",
+                                "Project": "Fluvoxamine",
+                                "Simulation": "FDArev - 100mg PO single- MM 2D6 - linear1A2",
                                 "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Fukasawa 2006.50 mg SD.EM/PM.smoker/non-smoker",
-                                "Color": "#FF0000"
+                                "ObservedData": "FDAreview.Fluvoxamine.100.sd.Luvox",
+                                "Color": "#FF8000"
                             },
                             {
-                                "Project": "Fluvoxamine-Model",
-                                "Simulation": "Japanese Society of Hospital Pharmacists 2015, 50 mg SD",
+                                "Project": "Fluvoxamine",
+                                "Simulation": "FDArev- 100mg 10 days - MM 2D6 - linear 1A2",
                                 "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Japanese Society 2015.50 mg SD",
-                                "Color": "#FF0000"
+                                "ObservedData": "FDAreview.Fluvoxamine.p18.enteric coated.MD.100",
+                                "Color": "#FF8000"
                             },
                             {
-                                "Project": "Fluvoxamine-Model",
-                                "Simulation": "Kunii 2005, 50 mg SD EM",
+                                "Project": "Fluvoxamine",
+                                "Simulation": "Labellarte2004 MAD PO - MM 2D6 - linear 1A2",
                                 "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Kunii 2005.50 mg SD.EM/PM.smoker/non-smoker",
-                                "Color": "#FF0000"
+                                "ObservedData": "Labellarte2004.Fluvoxamine.25.po.bid.Day7",
+                                "Color": "#FF8000"
                             },
                             {
-                                "Project": "Fluvoxamine-Model",
-                                "Simulation": "Spigset 1995, 50 mg SD EM non-smoker",
+                                "Project": "Fluvoxamine",
+                                "Simulation": "Labellarte2004 MAD PO - MM 2D6 - linear 1A2",
                                 "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Spigset 1995.50 mg SD.EM.non-smoker",
-                                "Color": "#FF0000"
+                                "ObservedData": "Labellarte2004.Fluvoxamine.50.po.bid.Day14",
+                                "Color": "#FF8000"
                             },
                             {
-                                "Project": "Fluvoxamine-Model",
-                                "Simulation": "Spigset 1995, 50 mg SD EM smoker",
+                                "Project": "Fluvoxamine",
+                                "Simulation": "Labellarte2004 MAD PO - MM 2D6 - linear 1A2",
                                 "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Spigset 1995.50 mg SD.EM.smoker",
-                                "Color": "#FF0000"
+                                "ObservedData": "Labellarte2004.Fluvoxamine.100.po.bid.Day28",
+                                "Color": "#FF8000"
                             },
                             {
-                                "Project": "Fluvoxamine-Model",
-                                "Simulation": "Spigset 1997, 50 mg SD EM",
+                                "Project": "Fluvoxamine",
+                                "Simulation": "Labellarte2004 MAD PO - MM 2D6 - linear 1A2",
                                 "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Spigset 1997.50 mg SD.EM.non-smoker",
-                                "Color": "#FF0000"
+                                "ObservedData": "Labellarte2004.Fluvoxamine.150.po.bid.Day42",
+                                "Color": "#FF8000"
                             },
                             {
-                                "Project": "Fluvoxamine-Model",
-                                "Simulation": "Spigset 1997, 50 mg SD PM",
+                                "Project": "Fluvoxamine",
+                                "Simulation": "Spigset 1998 MAD PO - MM 2D6 linear1A2",
                                 "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Spigset 1997.50 mg SD.PM.non-smoker",
-                                "Color": "#FF0000"
-                            },                            
-                            {
-                                "Project": "Fluvoxamine-Model",
-                                "Simulation": "van Harten 1991, 50 mg SD",
-                                "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "van Harten 1991.50 mg SD",
-                                "Color": "#FF0000"
+                                "ObservedData": "Spigset1998.Fluvoxamine.MAD.PO.bid.trough",
+                                "Color": "#FF8000"
                             },
                             {
-                                "Project": "Fluvoxamine-Model",
-                                "Simulation": "de Vries 1992, 50 mg bid",
+                                "Project": "Fluvoxamine",
+                                "Simulation": "Spigset 1998 MAD PO - MM 2D6 linear1A2",
                                 "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "de Vries 1992.50 mg BID",
-                                "Color": "#FF0000"
+                                "ObservedData": "Spigset1998.Fluvoxamine.MAD.PO.bid.week4",
+                                "Color": "#FF8000"
                             },
                             {
-                                "Project": "Fluvoxamine-Model",
-                                "Simulation": "Bahrami 2007, 100 mg SD",
+                                "Project": "Fluvoxamine",
+                                "Simulation": "Fleishaker1994 - 50 -100 qd  CYP2D6 linear1A2 - multiplePO",
                                 "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Bahrami 2007.100 mg SD.non-smoker",
-                                "Color": "#FF0000"
+                                "ObservedData": "Fleishaker1994.Fluvoxamine.100.po.qd.day3to10",
+                                "Color": "#FF8000"
+                            }
+                        ]
+                    },
+                    {
+                        "Caption": "Oral administration (model verification)",
+                        "Symbol": "Triangle",
+                        "OutputMappings": [
+                            {
+                                "Project": "Fluvoxamine",
+                                "Simulation": "Culm-Merdek_Fluvo_day3_MM2D6 - linear1A2",
+                                "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Culm-Merdek2005.Fluvoxamine.100.po.bid.postDose3",
+                                "Color": "#00ffbf"
                             },
                             {
-                                "Project": "Fluvoxamine-Model",
-                                "Simulation": "de Bree 1983, 100 mg SD",
+                                "Project": "Fluvoxamine",
+                                "Simulation": "FDArev- 100-200-300 day7_17_27_CRform - MM 2D6 linear1A2",
                                 "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "de Bree 1983.100 mg SD",
-                                "Color": "#FF0000"
+                                "ObservedData": "FDAreview.Fluvoxamine.p37.CR.MD.100",
+                                "Color": "#00ffbf"
                             },
                             {
-                                "Project": "Fluvoxamine-Model",
-                                "Simulation": "Japanese Society of Hospital Pharmacists 2015, 100 mg SD",
+                                "Project": "Fluvoxamine",
+                                "Simulation": "FDArev- 100-200-300 day7_17_27_CRform - MM 2D6 linear1A2",
                                 "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Japanese Society 2015.100 mg SD",
-                                "Color": "#FF0000"
-                            }                                                                                                                                                                                                                                                                                                                                                                                           
+                                "ObservedData": "FDAreview.Fluvoxamine.p37.CR.MD.200",
+                                "Color": "#00ffbf"
+                            },
+                            {
+                                "Project": "Fluvoxamine",
+                                "Simulation": "FDArev- 100-200-300 day7_17_27_CRform - MM 2D6 linear1A2",
+                                "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "FDAreview.Fluvoxamine.p37.CR.MD.300",
+                                "Color": "#00ffbf"
+                            },
+                            {
+                                "Project": "Fluvoxamine",
+                                "Simulation": "50mg_oral_SD_entericCoated_MM2D6_linear1A2",
+                                "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Carillo1996.Fluvoxamine.50mg.po.sd.Non-smokingEM",
+                                "Color": "#00ffbf"
+                            },
+                            {
+                                "Project": "Fluvoxamine",
+                                "Simulation": "50mg_oral_SD_entericCoated_MM2D6_linear1A2",
+                                "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Carillo1996.Fluvoxamine.50mg.po.sd.SmokingEM",
+                                "Color": "#00ffbf"
+                            },
+                            {
+                                "Project": "Fluvoxamine",
+                                "Simulation": "50mg_oral_SD_entericCoated_MM2D6_linear1A2",
+                                "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Fukasama2006.Fluvoxamine.50.po.sd",
+                                "Color": "#00ffbf"
+                            },
+                            {
+                                "Project": "Fluvoxamine",
+                                "Simulation": "50mg_oral_SD_entericCoated_MM2D6_linear1A2",
+                                "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Iga2015.Fluvoxamine.50mg.oral",
+                                "Color": "#00ffbf"
+                            },
+                            {
+                                "Project": "Fluvoxamine",
+                                "Simulation": "50mg_oral_SD_entericCoated_MM2D6_linear1A2",
+                                "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Kuni2005.Fluvoxamine.50.po.sd",
+                                "Color": "#00ffbf"
+                            },
+                            {
+                                "Project": "Fluvoxamine",
+                                "Simulation": "50mg_oral_SD_entericCoated_MM2D6_linear1A2",
+                                "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Orlando2009.Fluvoxamine.50.poSD.Elderly",
+                                "Color": "#00ffbf"
+                            },
+                            {
+                                "Project": "Fluvoxamine",
+                                "Simulation": "50mg_oral_SD_entericCoated_MM2D6_linear1A2",
+                                "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Orlando2009.Fluvoxamine.50.poSD.young",
+                                "Color": "#00ffbf"
+                            },
+                            {
+                                "Project": "Fluvoxamine",
+                                "Simulation": "50mg_oral_SD_entericCoated_MM2D6_linear1A2",
+                                "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Spigset1995.Fluvoxamine.50mg.po.sd",
+                                "Color": "#00ffbf"
+                            },
+                            {
+                                "Project": "Fluvoxamine",
+                                "Simulation": "50mg_oral_SD_entericCoated_MM2D6_linear1A2",
+                                "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Spigset1995.Fluvoxamine.50mg.po.sd.smokers",
+                                "Color": "#00ffbf"
+                            },
+                            {
+                                "Project": "Fluvoxamine",
+                                "Simulation": "50mg_oral_SD_entericCoated_MM2D6_linear1A2",
+                                "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Spigset1997.Fluvoxamine.50mg.sd.po.EM",
+                                "Color": "#00ffbf"
+                            },
+                            {
+                                "Project": "Fluvoxamine",
+                                "Simulation": "50mg_oral_SD_entericCoated_MM2D6_linear1A2",
+                                "Output": "Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Spigset1997.Fluvoxamine.50mg.sd.po.EM",
+                                "Color": "#00ffbf"
+                            }
                         ]
                     }
                 ]
@@ -486,14 +434,14 @@
     },
     "Inputs": [
         {
-            "Project": "Fluvoxamine-Model",
+            "Project": "Fluvoxamine",
             "Name": "Fluvoxamine",
             "Type": "Compound",
             "SectionId": 31
         },
         {
-            "Project": "Fluvoxamine-Model",
-            "Name": "Solution",
+            "Project": "Fluvoxamine",
+            "Name": "Fluvoxamine tablet",
             "Type": "Formulation",
             "SectionId": 31
         }
@@ -569,6 +517,11 @@
             "Id": 5,
             "Title": "5 References",
             "Content": "Content/References.md"
+        },
+        {
+            "Id": 6,
+            "Title": "6 Glossary",
+            "Content": "Content/glossary.md"
         }
     ],
     "Intro": [
