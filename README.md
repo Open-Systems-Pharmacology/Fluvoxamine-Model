@@ -14,6 +14,9 @@ This repository contains:
 
 The presented PBPK model of fluvoxamine has been developed to be used in a PBPK Drug-DrugInteractions (DDI) network with fluvoxamine as an inhibitor of CYP2C19 and CYP1A2. The development of this model is described in the publication by Kanacher *et al.* [[1](https://github.com/Open-Systems-Pharmacology/Ethinylestradiol-Model#references)]
 
+## Contacts
+For your questions and comments about the models please create a new [issue](https://github.com/Open-Systems-Pharmacology/Fluvoxamine-Model/issues). A full publication about models presented is available at: https://www.mdpi.com/1999-4923/12/12/1191 
+
 ## Code of conduct
 Everyone interacting in the Open Systems Pharmacology community (codebases, issue trackers, chat rooms, mailing lists etc...) is expected to follow the Open Systems Pharmacology [code of conduct](https://github.com/Open-Systems-Pharmacology/Suite/blob/master/CODE_OF_CONDUCT.md#contributor-covenant-code-of-conduct).
 
