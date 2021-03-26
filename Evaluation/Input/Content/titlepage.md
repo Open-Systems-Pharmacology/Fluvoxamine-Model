@@ -1,18 +1,12 @@
-# Building and evaluation of a PBPK model for fluvoxamine in healthy adults
+# Building and evaluation of a PBPK model for Fluvoxamine in adults
 
 
 
-
-
-| Version                                         | x.x-OSPy.y                                                   |
+| Version                                         | 1.0-OSP9.1                                                   |
 | ----------------------------------------------- | ------------------------------------------------------------ |
-| based on *Model Snapshot* and *Evaluation Plan* | https://github.com/Open-Systems-Pharmacology/Fluvoxamine-Model/releases/tag/vx.x |
-| OSP Version                                     | y.y                                                          |
-| Qualification Framework Version                 | z.z                                                          |
-
-
-
-
+| based on *Model Snapshot* and *Evaluation Plan* | https://github.com/Open-Systems-Pharmacology/Fluvoxamine-Model/releases/tag/v1.0 |
+| OSP Version                                     | 9.1                                                          |
+| Qualification Framework Version                 | 2.2                                                          |
 
 This evaluation report and the corresponding PK-Sim project file are filed at:
 

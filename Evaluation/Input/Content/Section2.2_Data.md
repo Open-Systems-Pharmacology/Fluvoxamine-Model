@@ -1,64 +1,46 @@
-### 2.2.1	In vitro / physico-chemical Data
+### 2.2.1 In vitro and physico-chemical data
 
-A literature search was performed to collect available information on physiochemical properties of fluvoxamine. The obtained information from literature is summarized in the table below. 
+A literature search was performed to collect available information on physico-chemical properties of fluvoxamine ([Table 1](#Table 1)).
 
-| **Parameter**          | **Unit** | **Value**               | Source                                              | **Description**                                              |
-| :--------------------- | -------- | ----------------------- | --------------------------------------------------- | ------------------------------------------------------------ |
-| MW                     | g/mol    | 318.34                  | [Drugbank](#5-References)                           | Molecular weight                                             |
-| pK<sub>a</sub>         |          | 9.40 (base)             | [Hallifax 2007](#5-References)                      | Acid dissociation constant                                   |
-| Solubility (pH)        | mg/mL    | 14.66 (7.0)             | [MSDS](#5-References)                               | Solubility                                                   |
-| logP                   |          | 2.80                    | [Drugbank](#5-References) (predicted by ChemAxon)   | Partition coefficient between octanol and water              |
-|                        |          | 2.89                    | [Drugbank](#5-References) (predicted by ALOGPS)     | Partition coefficient between octanol and water              |
-|                        |          | 3.20                    | [Drugbank](#5-References) (experimentally measured) | Partition coefficient between octanol and water              |
-| f<sub>u</sub>          |          | 0.13 ± 0.01<sup>a</sup> | [Yao 2001](#5-References)                           | Fraction unbound in plasma                                   |
-|                        |          | 0.14 ± 0.02<sup>a</sup> | [Yao 2001](#5-References)                           | Fraction unbound in plasma                                   |
-|                        |          | 0.23                    | [Claassen 1983](#5-References)                      | Fraction unbound in plasma                                   |
-| f<sub>u,mic</sub>      |          | 0.20 ± 0.05<sup>a</sup> | [Yao 2001](#5-References)                           | Fraction unbound in human liver microsomes at a protein concentration of 1 mg/mL |
-|                        |          | 0.31 ± 0.03<sup>a</sup> | [Yao 2001](#5-References)                           | Fraction unbound in human liver microsomes at a protein concentration of 0.5 mg/mL |
-|                        |          | 0.70 ± 0.03<sup>a</sup> | [Yao 2001](#5-References)                           | Fraction unbound in supersomes at a protein concentration of 0.3 mg/mL |
-| CYP2D6 K<sub>m</sub>   | µmol/L   | 76.30                   | [Miura 2007](#5-References)                         | Michaelis-Menten constant                                    |
-| CYP2D6 k<sub>cat</sub> | 1/min    | 0                       | [Crews 2014](#5-References)                         | Renal plasma clearance                                       |
-| CYP1A2 K<sub>i</sub>   | µmol/L   | 0.011                   | [Karjalainen 2008](#5-References)                   | Competitive inhibition constant of the competitive inhibition model measured in human liver microsomes |
-| CYP1A2 K<sub>i,u</sub> | nmol/L   | 35                      | [Yao 2001](#5-References)                           | Unbound competitive inhibition constant of the mixed inhibition model measured in human liver microsomes at a protein concentration of 1 mg/mL |
-|                        | nmol/L   | 36                      | [Yao 2001](#5-References)                           | Competitive inhibition constant of the mixed inhibition model measured in human liver microsomes at a protein concentration of 0.5 mg/mL |
-|                        | nmol/L   | 36                      | [Yao 2001](#5-References)                           | Competitive inhibition constant of the mixed inhibition model measured in supersomes at a protein concentration of 0.3 mg/mL |
-| CYP3A4 K<sub>i</sub>   | µmol/L   | 1.60                    | [Olesen 2000](#5-References)                        | Competitive inhibition constant of the competitive inhibition model measured in human liver microsomes |
+| **Parameter**                     | **Unit** | **Value**       | Source                            | **Description**                                              |
+| :-------------------------------- | -------- | --------------- | --------------------------------- | ------------------------------------------------------------ |
+| MW<sup>+</sup>                    | g/mol    | 318.33          | [DrugBank DB00176](#5-References) | Molecular weight of free base. Dose of commercial product usually refers to amount of fluvoxamine maleate – conversion factor is 0.733 |
+| pK<sub>a,base</sub><sup>+</sup>   |          | 9.16            | [Alqahtani 2016](#5-References)   | Basic dissociation constant                                  |
+| Solubility (pH)<sup>+</sup>       | mg/mL    | 0.06<br />(7.4) | [PubChem 9560989](#5-References)  | Aqueous Solubility                                           |
+| logP<sup>+</sup>                  |          | 3.38            | [Alqahtani 2016](#5-References)   | Partitioning coefficient                                     |
+| fu<sup>+</sup>                    | %        | 23              | [Alqahtani 2016](#5-References)   | Fraction unbound in plasma                                   |
+| K<sub>i</sub> CYP1A2<sup>+</sup>  | nmol/L   | 2.97            | [Iga 2016](#5-References)         | CYP1A2 inhibition constant                                   |
+| K<sub>i</sub> CYP2C19<sup>+</sup> | nmol/L   | 3.6             | [Iga 2016](#5-References)         | CYP2C19 inhibition constant (omeprazole as substrate)        |
+| K<sub>i</sub> CYP2C19<sup>+</sup> | nmol/L   | 2.6             | [Iga 2016](#5-References)         | CYP2C19 inhibition constant (s-mephenytoin as substrate)     |
 
-<sup>a</sup> denotes mean ± standard deviation
+**Table 1:**<a name="Table 1"></a> Physico-chemical and *in-vitro* metabolization properties of fluvoxamine extracted from literature. *<sup>+</sup>: Value used in final model*
 
-### 2.2.2 Clinical Data
+### 2.2.2 Clinical data
 
-A literature search was performed to collect available clinical data on fluvoxamine in healthy adults.
+A literature search was performed to collect available clinical data on fluvoxamine in adults. Data used for model development and validation is listed in [Table 2](#Table 2).
 
-The fluvoxamine PBPK model was developed using 26 different clinical studies with pharmacokinetic (PK) blood sampling. These studies include 1 study of 30 mg fluvoxamine administered intravenously (iv) as a single-dose, and 25 studies of fluvoxamine administered orally (po) in single- or multiple-doses. In the single-dose po studies fluvoxamine was administered in doses of 25 - 200 mg. In the multiple-dose po studies fluvoxamine was administered once (q.d.) or twice daily (b.i.d.), in doses of 10 - 150 mg per administration.
+| **Source**           | **Route** | **Dose [mg]/**  **Schedule \*** | **Pop.**     | **Age [yrs] (mean)** | **Weight [kg] (mean)** | **Sex** | **N** | **Form.** | **Comment**                       |
+| -------------------- | --------- | ------------------------------- | ------------ | -------------------- | ---------------------- | ------- | ----- | --------- | --------------------------------- |
+| [Carillo 1996](#5-References) | p.o.      | 50                              | HV           | -                    | -                      | m/f     | 5     | e.c. Tab  | Non-smoking  EM / Smoking EM  |
+| [Carillo 1996](#5-References)<sup>+</sup> | p.o. | 50 | HV | - | - | m/f | 5 | e.c. Tab | Non-smoking PM |
+| [Spigset 1997](#5-References)<sup>+</sup> | p.o.      | 50                              | HV           | -                    | -                      |         | 5     | e.c. Tab  | PM                                |
+| [Spigset 1997](#5-References) | p.o.      | 50                              | HV           | -                    | -                      |         | 5     | e.c. Tab  | EM                                |
+| [DeVries 1992](#5-References) | p.o.      | 50 b.i.d.                       | HV + Elderly | -                    | -                      | m/f     | 25    | e.c. Tab  | -                                 |
+| [Iga 2015](#5-References)<sup>+</sup> | i.v. | 50                        | Japanese     | -    | -    | -    | -    | -             | -                                   |
+| [Iga 2015](#5-References) | p.o. | 50                        | Japanese     | -    | -    | -    | -    | -             | -                                   |
+| [Orlando 2009](#5-References) | p.o. | 50                        | HV           | 35   | 79   | male | 10   | -             | -                                   |
+| [Spigset 1998](#5-References)<sup>+</sup> | p.o. | 50 / 100 b.i.d. | HV           | 28.9 | 85.6 | male | 10   | e.c. Tab      | -                                   |
+| [Spigset 1998](#5-References) | p.o. | 12.5/ 25 b.i.d. | HV | 28.9 | 85.6 | male | 10 | e.c. Tab | - |
+| [DeVries 1993](#5-References)<sup>+</sup> | p.o. | 25 / 50/ 100              | HV           | -    | -    | male | 12   | solution      | -                                   |
+| [VanHarten 1994](#5-References) | p.o. | 50                        | HV           | -    | -    | male | 17   | capsule       | -                                   |
+| [VanHarten 1991](#5-References) | p.o. | 50                        | HV           | 24   | 73   | m/f  | 12   | e.c. Tab      | With/ without food                  |
+| [Kunii 2005](#5-References) | p.o. | 50                        | HV           | 29.7 | 69.3 | m    | 10   | e.c. Tab      | -                                   |
+| [Fukasawa 2006](#5-References) | p.o. | 50                        | HV           | 29.6 | 68.3 | m    | 12   | e.c. Tab      | -                                   |
+| [Fleishaker 1994](#5-References)<sup>+</sup> | p.o. | 12.5 - 25 - 50 - 100 q.d. | HV           | 32   | 80   | m    | 20   | e.c. Tab      | -                                   |
+| [Labellarte 2004](#5-References)<sup>+</sup> | p.o. | 25 / 50 / 100/ 150 b.i.d. | Adole-scents | 14   | 60   | m/f  | 23   | e.c. Tab      | -                                   |
+| [Spigset 1997](#5-References) | p.o. | 50                        | HV           | 34.7 | 66.5 | m/f  | 12   | e.c. Tab      | non-smokers / smoker                |
+| [FDA_ClinPharmReview LuvoxCR](#5-References)<sup>+</sup> | p.o. | 100      | HV           | -    | -    | -    | 20   | e.c. Tab / CR | -                                   |
+| [FDA_ClinPharmReview LuvoxCR](#5-References)<sup>+</sup> | p.o. | 100 q.d. | HV | - | - | - | 20 | e.c. Tab / CR | - |
+| [FDA_ClinPharmReview LuvoxCR](#5-References) | p.o. | 200 / 300 q.d. | HV | - | - | - | 20 | e.c. Tab / CR | - |
 
-#### 2.2.2.1	Model Building
-
-The following studies were used for model building (training data):
-
-| Publication                            | Arm / Treatment / Information used for model building        |
-| :------------------------------------- | :----------------------------------------------------------- |
-| [Japanese Society 2015](#5-References) | Healthy Japanese adults with 30 mg as 60 min infusion or oral administration of 200 mg |
-| [de Vries 1993](#5-References)         | Healthy adults with oral administration of 25-100 mg         |
-| [Orlando 2010](#5-References)          | Healthy adults with oral administration of 50 mg             |
-| [Labellarte 2004](#5-References)       | Healthy CYP2D6 EM with oral administration of 50 mg twice a day |
-| [Spigset 1998](#5-References)          | Healthy CYP2D6 EM (80%) and PM (20%) with oral administration of doses between 12.5-100 mg twice a day |
-| [Fleishaker 1994](#5-References)       | Healthy adults with oral administration of 50 mg or 100 mg once daily |
-
-#### 2.2.2.2	Model Verification
-
-The following studies were used for model verification:
-
-| Publication                            | Arm / Treatment / Information used for model building        |
-| :------------------------------------- | :----------------------------------------------------------- |
-| [Christensen 2002](#5-References)      | Healthy CYP2D6 EM with oral administration of 10 mg or 25 mg twice a day and healthy CYP2D6 PM with oral administration of 10 mg or 25 mg once daily |
-| [Fukasawa 2006](#5-References)         | Healthy Japanese adults with single oral doses of 50 mg      |
-| [Japanese Society 2015](#5-References) | Healthy Japanese adults with single oral doses of 25-100 mg  |
-| [Kunii 2005](#5-References)            | Healthy CYP2D6 EM with single oral doses of 50 mg            |
-| [Spigset 1995](#5-References)          | Healthy smokers or non-smokers with oral administration of 50 mg as single dose |
-| [Spigset 1997](#5-References)          | Healthy CYP2D6 EM or PM with oral administration of 50 mg as single dose |
-| [van Harten 1991](#5-References)       | Healthy adults  with oral administration of 50 mg as single dose |
-| [de Vries 1992](#5-References)          | Healthy adults with oral administration of 50 mg twice a day |
-| [Bahrami 2007](#5-References)          | Healthy adults with oral administration of 100 mg as single dose |
-| [de Bree 1983](#5-References)          | Healthy adults with oral administration of 100 mg as single dose |
-
+**Table 2:**<a name="Table 2"></a> Literature sources of clinical concentration data of fluvoxamine used for model development and validation. *e.c.: enteric coated; -: respective information was not provided in the literature source; \*:single dose unless otherwise specified; <sup>+</sup>: Data used for final parameter identification*
