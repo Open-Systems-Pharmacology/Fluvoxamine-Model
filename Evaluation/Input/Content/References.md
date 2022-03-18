@@ -7,8 +7,6 @@ Disposition of fluvoxamine in humans is determined by the polymorphic
 CYP2D6 and also by the CYP1A2 activity. Clin Pharmacol Ther. 1996
 Aug;60(2):183-90  
 
-**DeVries 1992** De Vries MH, Raghoebar M, Mathlener IS, Van Harten J. Single and multiple oral dose fluvoxamine kinetics in young and elderly subjects. Ther Drug Monit. 1992; 14:493-498.
-
 **DeVries 1993** De Vries MH, Van Harten J, Van Bemmel P, Raghoebar M. Pharmacokinetics of fluvoxamine maleate after increasing single oral doses in healthy subjects. Biopharmaceutics & Drug Disposition. 1993 May;14(4):291--6.
 
 **DrugBank DB00176** (https://www.drugbank.ca/drugs/DB00176)

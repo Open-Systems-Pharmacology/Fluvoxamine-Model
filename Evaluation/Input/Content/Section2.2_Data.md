@@ -25,7 +25,6 @@ A literature search was performed to collect available clinical data on fluvoxam
 | [Carillo 1996](#5-References)<sup>+</sup> | p.o. | 50 | HV | - | - | m/f | 5 | e.c. Tab | Non-smoking PM |
 | [Spigset 1997](#5-References)<sup>+</sup> | p.o.      | 50                              | HV           | -                    | -                      |         | 5     | e.c. Tab  | PM                                |
 | [Spigset 1997](#5-References) | p.o.      | 50                              | HV           | -                    | -                      |         | 5     | e.c. Tab  | EM                                |
-| [DeVries 1992](#5-References) | p.o.      | 50 b.i.d.                       | HV + Elderly | -                    | -                      | m/f     | 25    | e.c. Tab  | -                                 |
 | [Iga 2015](#5-References)<sup>+</sup> | i.v. | 50                        | Japanese     | -    | -    | -    | -    | -             | -                                   |
 | [Iga 2015](#5-References) | p.o. | 50                        | Japanese     | -    | -    | -    | -    | -             | -                                   |
 | [Orlando 2009](#5-References) | p.o. | 50                        | HV           | 35   | 79   | male | 10   | -             | -                                   |
