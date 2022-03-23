@@ -11,7 +11,7 @@ This repository contains:
 
 **The latest release of the snapshot of the model, the evaluation plan and the static content can be found  in this repository.**
 
-The presented PBPK model of fluvoxamine has been developed to be used in a PBPK Drug-DrugInteractions (DDI) network with fluvoxamine as an inhibitor of CYP2C19 and CYP1A2. The development of this model is described in the publication by Kanacher *et al.* [[1](https://github.com/Open-Systems-Pharmacology/Fluvoxamine-Model/tree/cyp1a2_cyp2C19_DDI#references)]
+The presented PBPK model of fluvoxamine has been developed to be used in a PBPK Drug-DrugInteractions (DDI) network with fluvoxamine as an inhibitor of CYP2C19 and CYP1A2. The development of this model is described in the publication by Kanacher *et al.* [[1](#references)]
 
 ## Contacts
 For your questions and comments about the models please create a new [issue](https://github.com/Open-Systems-Pharmacology/Fluvoxamine-Model/issues). A full publication about models presented is available at: https://www.mdpi.com/1999-4923/12/12/1191 
