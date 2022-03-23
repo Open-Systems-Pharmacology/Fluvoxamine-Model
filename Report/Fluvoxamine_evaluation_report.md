@@ -29,7 +29,7 @@ https://github.com/Open-Systems-Pharmacology/OSP-PBPK-Model-Library/
 # 1 Introduction
 The presented PBPK model of fluvoxamine has been developed to be used in a PBPK Drug-Drug-Interactions (DDI) network with fluvoxamine as an inhibitor of CYP2C19 and CYP1A2.
 
-Fluvoxamine is a selective serotonin reuptake inhibitor. After oral administration, fluvoxamine-maleate is absorbed moderately fast with peak plasma concentrations reached at approx. 2-4 hours post-dose. Approximately 77% of the drug is bound to plasma proteins. The concentration-time profile elicits a bi-phasic shape ([Perucca 1994](#5-references)). Fluvoxamine is extensively metabolised via CYP2D6 and CYP1A2. Plasma concentrations increase non-proportionally with increasing doses, suggesting (partially) saturable metabolism. Fluvoxamine is a strong inhibitor of CYP2C19 and CYP1A2 ([FDA DDI Labeling](#5-references)), and a weak inhibitor of CYP3A (AUCR <2) ([Lam 2003](#5-references)). Only a very minor part of the dose is recovered unchanged in the urine.
+Fluvoxamine is a selective serotonin reuptake inhibitor. After oral administration, fluvoxamine-maleate is absorbed moderately fast with peak plasma concentrations reached at approx. 2-4 hours post-dose. Approximately 77% of the drug is bound to plasma proteins. The concentration-time profile elicits a bi-phasic shape ([Perucca 1994](#5-references)). Fluvoxamine is extensively metabolized via CYP2D6 and CYP1A2. Plasma concentrations increase non-proportionally with increasing doses, suggesting (partially) saturable metabolism. Fluvoxamine is a strong inhibitor of CYP2C19 and CYP1A2 ([FDA DDI Labeling](#5-references)), and a weak inhibitor of CYP3A (AUCR <2) ([Lam 2003](#5-references)). Only a very minor part of the dose is recovered unchanged in the urine.
 
 # 2 Methods
 
@@ -37,7 +37,7 @@ Fluvoxamine is a selective serotonin reuptake inhibitor. After oral administrati
 ## 2.1 Modeling Strategy
 The general workflow for building an adult PBPK model has been described by Kuepfer et al. ([Kuepfer 2016](#5-references)). Relevant information on the anthropometry (height, weight) was gathered from the respective clinical study, if reported. Information on physiological parameters (e.g. blood flows, organ volumes, hematocrit) in adults was gathered from the literature and has been incorporated in PK-Sim® as described previously ([Willmann 2007](#5-references)). The  applied activity and variability of plasma proteins and active processes that are integrated into PK-Sim® are described in the publicly available 'PK-Sim® Ontogeny Database Version 7.3' ([PK-Sim Ontogeny Database Version 7.3](#5-references)).
 
-In general, the following step-wise modeling work flow was followed:
+In general, the following step-wise modeling workflow was followed:
 
 1. Predict i.v.-profiles based on in vitro data alone and optimize distribution model and metabolism parameters
 2. Predict single dose data following oral solution
@@ -48,7 +48,7 @@ In general, the following step-wise modeling work flow was followed:
 
 Selection of the distribution model was performed with i.v. data ([Iga 2015](#5-references)) with a place-holder linear clearance. A typical Japanese subject (age = 30 y, weight = 61.87 kg, height = 168.99 cm, BMI = 21.67 kg/m2) was created in PK-Sim from predefined database “Japanese (2015)” by adding CYP1A2 and CYP2D6 expression from PK-Sim RT PCR database.
 
-Intestinal permeability and the kinetics of the CYP1A2 and CYP2D6 clearance processes were estimated using the Parameter Identification module provided in PK-Sim® with the concentration-time data listed in [Section 2.2](#22-data). The predefined “Standard European Male for DDI” individual (age = 30 y, weight = 73 kg, height = 176 cm, BMI = 23.57 kg/m2) with CYP1A2 and CYP2D6 expression obtained from PK-Sim RT PCR database was used for simulations of European individuals. Additionally, fractions metabolized via CYP1A2 and CYP2D6 were fitted to 29.5% and 66.5%, respectively ([Alqahtani 2016](#5-references), [Britz 2018](#5-references)). For simulations of poor metabolizers ([Carillo 1996](#5-references), [Spigset 1997](#5-References)), the CYP2D6 pathway was turned off.
+Intestinal permeability and the kinetics of the CYP1A2 and CYP2D6 clearance processes were estimated using the Parameter Identification module provided in PK-Sim® with the concentration-time data listed in [Section 2.2](#22-data). The predefined “Standard European Male for DDI” individual (age = 30 y, weight = 73 kg, height = 176 cm, BMI = 23.57 kg/m2) with CYP1A2 and CYP2D6 expression obtained from PK-Sim RT PCR database was used for simulations of European individuals. Additionally, fractions metabolized via CYP1A2 and CYP2D6 were fitted to 29.5% and 66.5%, respectively ([Alqahtani 2016](#5-references), [Britz 2018](#5-references)). For simulations of poor metabolizers ([Carillo 1996](#5-references), [Spigset 1997](#5-references)), the CYP2D6 pathway was turned off.
 
 Details about input data (physicochemical, *in vitro* and clinical) can be found in [Section 2.2](#22-data).
 
@@ -105,7 +105,7 @@ A literature search was performed to collect available clinical data on fluvoxam
 
 The model parameter `Specific intestinal permeability` was optimized to best match clinical data (see  [Section 2.3.4](#234-automated-parameter-identification)). The default solubility was assumed to be the measured value in the FaSSIF medium (see [Section 2.2.1](#221-in-vitro-and-physico-chemical-data)).
 
-The dissolution of enteric-coated tablets were implemented via an empirical Weibull dissolution equation with `Dissolution time (50% dissolved)` = 10 min and `Lag time ` = 30 min.
+The dissolution of enteric-coated tablets was implemented via an empirical Weibull dissolution equation with `Dissolution time (50% dissolved)` = 10 min and `Lag time ` = 30 min.
 
 ### 2.3.2 Distribution
 
@@ -115,9 +115,9 @@ After testing the available organ-plasma partition coefficient and cell permeabi
 
 ### 2.3.3 Metabolism and Elimination
 
-Two metabolic pathways were implement in the model:
+Two metabolic pathways were implemented in the model:
 
-* CYP2D6 (saturable Michealis-Menten)
+* CYP2D6 (saturable Michaelis-Menten)
 * CYP1A2 (linear)
 
 As the single elimination route via CYP2D6 was not sufficient to correctly describe the multiple dose administrations, elimination through CYP1A2 has been added as suggested by others ([Alqahtani 2016](#5-references)).
@@ -395,7 +395,7 @@ Aug;60(2):183-90
 | q.d.    | Once daily (quaque diem)                                     |
 | SD      | Single Dose                                                  |
 | SE      | Standard error                                               |
-| s.d.SPC | Single doseSummary of Product Characteristics                |
+| s.d.SPC | Single dose Summary of Product Characteristics                |
 | SD      | Standard deviation                                           |
 | TDI     | Time dependent inhibition                                    |
 | t.i.d   | Three times a day (ter in die)                               |

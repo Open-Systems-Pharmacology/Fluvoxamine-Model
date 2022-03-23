@@ -1,6 +1,6 @@
 The general workflow for building an adult PBPK model has been described by Kuepfer et al. ([Kuepfer 2016](#5-references)). Relevant information on the anthropometry (height, weight) was gathered from the respective clinical study, if reported. Information on physiological parameters (e.g. blood flows, organ volumes, hematocrit) in adults was gathered from the literature and has been incorporated in PK-Sim® as described previously ([Willmann 2007](#5-references)). The  applied activity and variability of plasma proteins and active processes that are integrated into PK-Sim® are described in the publicly available 'PK-Sim® Ontogeny Database Version 7.3' ([PK-Sim Ontogeny Database Version 7.3](#5-references)).
 
-In general, the following step-wise modeling work flow was followed:
+In general, the following step-wise modeling workflow was followed:
 
 1. Predict i.v.-profiles based on in vitro data alone and optimize distribution model and metabolism parameters
 2. Predict single dose data following oral solution
