@@ -29,13 +29,13 @@ https://github.com/Open-Systems-Pharmacology/OSP-PBPK-Model-Library/
 # 1 Introduction
 The presented PBPK model of fluvoxamine has been developed to be used in a PBPK Drug-Drug-Interactions (DDI) network with fluvoxamine as an inhibitor of CYP2C19 and CYP1A2.
 
-Fluvoxamine is a selective serotonin reuptake inhibitor. After oral administration, fluvoxamine-maleate is absorbed moderately fast with peak plasma concentrations reached at approx. 2-4 hours post-dose. Approximately 77% of the drug is bound to plasma proteins. The concentration-time profile elicits a bi-phasic shape ([Perucca 1994](#5-References)). Fluvoxamine is extensively metabolised via CYP2D6 and CYP1A2. Plasma concentrations increase non-proportionally with increasing doses, suggesting (partially) saturable metabolism. Fluvoxamine is a strong inhibitor of CYP2C19 and CYP1A2 ([FDA DDI Labeling](#5-References)), and a weak inhibitor of CYP3A (AUCR <2) ([Lam 2003](#5-References)). Only a very minor part of the dose is recovered unchanged in the urine.
+Fluvoxamine is a selective serotonin reuptake inhibitor. After oral administration, fluvoxamine-maleate is absorbed moderately fast with peak plasma concentrations reached at approx. 2-4 hours post-dose. Approximately 77% of the drug is bound to plasma proteins. The concentration-time profile elicits a bi-phasic shape ([Perucca 1994](#5-references)). Fluvoxamine is extensively metabolised via CYP2D6 and CYP1A2. Plasma concentrations increase non-proportionally with increasing doses, suggesting (partially) saturable metabolism. Fluvoxamine is a strong inhibitor of CYP2C19 and CYP1A2 ([FDA DDI Labeling](#5-references)), and a weak inhibitor of CYP3A (AUCR <2) ([Lam 2003](#5-references)). Only a very minor part of the dose is recovered unchanged in the urine.
 
 # 2 Methods
 
 
 ## 2.1 Modeling Strategy
-The general workflow for building an adult PBPK model has been described by Kuepfer et al. ([Kuepfer 2016](#5-References)). Relevant information on the anthropometry (height, weight) was gathered from the respective clinical study, if reported. Information on physiological parameters (e.g. blood flows, organ volumes, hematocrit) in adults was gathered from the literature and has been incorporated in PK-Sim® as described previously ([Willmann 2007](#5-References)). The  applied activity and variability of plasma proteins and active processes that are integrated into PK-Sim® are described in the publicly available 'PK-Sim® Ontogeny Database Version 7.3' ([PK-Sim Ontogeny Database Version 7.3](#5-References)).
+The general workflow for building an adult PBPK model has been described by Kuepfer et al. ([Kuepfer 2016](#5-references)). Relevant information on the anthropometry (height, weight) was gathered from the respective clinical study, if reported. Information on physiological parameters (e.g. blood flows, organ volumes, hematocrit) in adults was gathered from the literature and has been incorporated in PK-Sim® as described previously ([Willmann 2007](#5-references)). The  applied activity and variability of plasma proteins and active processes that are integrated into PK-Sim® are described in the publicly available 'PK-Sim® Ontogeny Database Version 7.3' ([PK-Sim Ontogeny Database Version 7.3](#5-references)).
 
 In general, the following step-wise modeling work flow was followed:
 
@@ -46,13 +46,13 @@ In general, the following step-wise modeling work flow was followed:
 5. Multiple dose predictions with preliminary model
 6. Refine model and optimize permeability and metabolism parameters.
 
-Selection of the distribution model was performed with i.v. data ([Iga 2015](# 5 References)) with a place-holder linear clearance. A typical Japanese subject (age = 30 y, weight = 61.87 kg, height = 168.99 cm, BMI = 21.67 kg/m2) was created in PK-Sim from predefined database “Japanese (2015)” by adding CYP1A2 and CYP2D6 expression from PK-Sim RT PCR database.
+Selection of the distribution model was performed with i.v. data ([Iga 2015](#5-references)) with a place-holder linear clearance. A typical Japanese subject (age = 30 y, weight = 61.87 kg, height = 168.99 cm, BMI = 21.67 kg/m2) was created in PK-Sim from predefined database “Japanese (2015)” by adding CYP1A2 and CYP2D6 expression from PK-Sim RT PCR database.
 
-Intestinal permeability and the kinetics of the CYP1A2 and CYP2D6 clearance processes were estimated using the Parameter Identification module provided in PK-Sim® with the concentration-time data listed in [Section 2.2](#2.2-Data). The predefined “Standard European Male for DDI” individual (age = 30 y, weight = 73 kg, height = 176 cm, BMI = 23.57 kg/m2) with CYP1A2 and CYP2D6 expression obtained from PK-Sim RT PCR database was used for simulations of European individuals. Additionally, fractions metabolized via CYP1A2 and CYP2D6 were fitted to 29.5% and 66.5%, respectively ([Alqahtani 2016](# 5 References), [Britz 2018](# 5 References)). For simulations of poor metabolizers ([Carillo 1996](#5-References), [Spigset 1997](#5-References)), the CYP2D6 pathway was turned off.
+Intestinal permeability and the kinetics of the CYP1A2 and CYP2D6 clearance processes were estimated using the Parameter Identification module provided in PK-Sim® with the concentration-time data listed in [Section 2.2](#22-data). The predefined “Standard European Male for DDI” individual (age = 30 y, weight = 73 kg, height = 176 cm, BMI = 23.57 kg/m2) with CYP1A2 and CYP2D6 expression obtained from PK-Sim RT PCR database was used for simulations of European individuals. Additionally, fractions metabolized via CYP1A2 and CYP2D6 were fitted to 29.5% and 66.5%, respectively ([Alqahtani 2016](#5-references), [Britz 2018](#5-references)). For simulations of poor metabolizers ([Carillo 1996](#5-references), [Spigset 1997](#5-References)), the CYP2D6 pathway was turned off.
 
-Details about input data (physicochemical, *in vitro* and clinical) can be found in [Section 2.2](#2.2-Data).
+Details about input data (physicochemical, *in vitro* and clinical) can be found in [Section 2.2](#22-data).
 
-Details about the structural model and its parameters can be found in [Section 2.3](#2.3-Model-Parameters-and-Assumptions).
+Details about the structural model and its parameters can be found in [Section 2.3](#23-model-parameters-and-assumptions).
 
 ## 2.2 Data
 ### 2.2.1 In vitro and physico-chemical data
@@ -61,14 +61,14 @@ A literature search was performed to collect available information on physico-ch
 
 | **Parameter**                     | **Unit** | **Value**       | Source                            | **Description**                                              |
 | :-------------------------------- | -------- | --------------- | --------------------------------- | ------------------------------------------------------------ |
-| MW<sup>+</sup>                    | g/mol    | 318.33          | [DrugBank DB00176](#5-References) | Molecular weight of free base. Dose of commercial product usually refers to amount of fluvoxamine maleate – conversion factor is 0.733 |
-| pK<sub>a,base</sub><sup>+</sup>   |          | 9.16            | [Alqahtani 2016](#5-References)   | Basic dissociation constant                                  |
-| Solubility (pH)<sup>+</sup>       | mg/mL    | 0.06<br />(7.4) | [PubChem 9560989](#5-References)  | Aqueous Solubility                                           |
-| logP<sup>+</sup>                  |          | 3.38            | [Alqahtani 2016](#5-References)   | Partitioning coefficient                                     |
-| fu<sup>+</sup>                    | %        | 23              | [Alqahtani 2016](#5-References)   | Fraction unbound in plasma                                   |
-| K<sub>i</sub> CYP1A2<sup>+</sup>  | nmol/L   | 2.97            | [Iga 2016](#5-References)         | CYP1A2 inhibition constant                                   |
-| K<sub>i</sub> CYP2C19<sup>+</sup> | nmol/L   | 3.6             | [Iga 2016](#5-References)         | CYP2C19 inhibition constant (omeprazole as substrate)        |
-| K<sub>i</sub> CYP2C19<sup>+</sup> | nmol/L   | 2.6             | [Iga 2016](#5-References)         | CYP2C19 inhibition constant (s-mephenytoin as substrate)     |
+| MW<sup>+</sup>                    | g/mol    | 318.33          | [DrugBank DB00176](#5-references) | Molecular weight of free base. Dose of commercial product usually refers to amount of fluvoxamine maleate – conversion factor is 0.733 |
+| pK<sub>a,base</sub><sup>+</sup>   |          | 9.16            | [Alqahtani 2016](#5-references)   | Basic dissociation constant                                  |
+| Solubility (pH)<sup>+</sup>       | mg/mL    | 0.06<br />(7.4) | [PubChem 9560989](#5-references)  | Aqueous Solubility                                           |
+| logP<sup>+</sup>                  |          | 3.38            | [Alqahtani 2016](#5-references)   | Partitioning coefficient                                     |
+| fu<sup>+</sup>                    | %        | 23              | [Alqahtani 2016](#5-references)   | Fraction unbound in plasma                                   |
+| K<sub>i</sub> CYP1A2<sup>+</sup>  | nmol/L   | 2.97            | [Iga 2016](#5-references)         | CYP1A2 inhibition constant                                   |
+| K<sub>i</sub> CYP2C19<sup>+</sup> | nmol/L   | 3.6             | [Iga 2016](#5-references)         | CYP2C19 inhibition constant (omeprazole as substrate)        |
+| K<sub>i</sub> CYP2C19<sup>+</sup> | nmol/L   | 2.6             | [Iga 2016](#5-references)         | CYP2C19 inhibition constant (s-mephenytoin as substrate)     |
 
 **Table 1:**<a name="Table 1"></a> Physico-chemical and *in-vitro* metabolization properties of fluvoxamine extracted from literature. *<sup>+</sup>: Value used in final model*
 
@@ -78,38 +78,38 @@ A literature search was performed to collect available clinical data on fluvoxam
 
 | **Source**           | **Route** | **Dose [mg]/**  **Schedule \*** | **Pop.**     | **Age [yrs] (mean)** | **Weight [kg] (mean)** | **Sex** | **N** | **Form.** | **Comment**                       |
 | -------------------- | --------- | ------------------------------- | ------------ | -------------------- | ---------------------- | ------- | ----- | --------- | --------------------------------- |
-| [Carillo 1996](#5-References) | p.o.      | 50                              | HV           | -                    | -                      | m/f     | 5     | e.c. Tab  | Non-smoking  EM / Smoking EM  |
-| [Carillo 1996](#5-References)<sup>+</sup> | p.o. | 50 | HV | - | - | m/f | 5 | e.c. Tab | Non-smoking PM |
-| [Spigset 1997](#5-References)<sup>+</sup> | p.o.      | 50                              | HV           | -                    | -                      |         | 5     | e.c. Tab  | PM                                |
-| [Spigset 1997](#5-References) | p.o.      | 50                              | HV           | -                    | -                      |         | 5     | e.c. Tab  | EM                                |
-| [Iga 2015](#5-References)<sup>+</sup> | i.v. | 50                        | Japanese     | -    | -    | -    | -    | -             | -                                   |
-| [Iga 2015](#5-References) | p.o. | 50                        | Japanese     | -    | -    | -    | -    | -             | -                                   |
-| [Orlando 2009](#5-References) | p.o. | 50                        | HV           | 35   | 79   | male | 10   | -             | -                                   |
-| [Spigset 1998](#5-References)<sup>+</sup> | p.o. | 50 / 100 b.i.d. | HV           | 28.9 | 85.6 | male | 10   | e.c. Tab      | -                                   |
-| [Spigset 1998](#5-References) | p.o. | 12.5/ 25 b.i.d. | HV | 28.9 | 85.6 | male | 10 | e.c. Tab | - |
-| [DeVries 1993](#5-References)<sup>+</sup> | p.o. | 25 / 50/ 100              | HV           | -    | -    | male | 12   | solution      | -                                   |
-| [VanHarten 1994](#5-References) | p.o. | 50                        | HV           | -    | -    | male | 17   | capsule       | -                                   |
-| [VanHarten 1991](#5-References) | p.o. | 50                        | HV           | 24   | 73   | m/f  | 12   | e.c. Tab      | With/ without food                  |
-| [Kunii 2005](#5-References) | p.o. | 50                        | HV           | 29.7 | 69.3 | m    | 10   | e.c. Tab      | -                                   |
-| [Fukasawa 2006](#5-References) | p.o. | 50                        | HV           | 29.6 | 68.3 | m    | 12   | e.c. Tab      | -                                   |
-| [Fleishaker 1994](#5-References)<sup>+</sup> | p.o. | 12.5 - 25 - 50 - 100 q.d. | HV           | 32   | 80   | m    | 20   | e.c. Tab      | -                                   |
-| [Labellarte 2004](#5-References)<sup>+</sup> | p.o. | 25 / 50 / 100/ 150 b.i.d. | Adole-scents | 14   | 60   | m/f  | 23   | e.c. Tab      | -                                   |
-| [Spigset 1997](#5-References) | p.o. | 50                        | HV           | 34.7 | 66.5 | m/f  | 12   | e.c. Tab      | non-smokers / smoker                |
-| [FDA_ClinPharmReview LuvoxCR](#5-References)<sup>+</sup> | p.o. | 100      | HV           | -    | -    | -    | 20   | e.c. Tab / CR | -                                   |
-| [FDA_ClinPharmReview LuvoxCR](#5-References)<sup>+</sup> | p.o. | 100 q.d. | HV | - | - | - | 20 | e.c. Tab / CR | - |
-| [FDA_ClinPharmReview LuvoxCR](#5-References) | p.o. | 200 / 300 q.d. | HV | - | - | - | 20 | e.c. Tab / CR | - |
+| [Carillo 1996](#5-references) | p.o.      | 50                              | HV           | -                    | -                      | m/f     | 5     | e.c. Tab  | Non-smoking  EM / Smoking EM  |
+| [Carillo 1996](#5-references)<sup>+</sup> | p.o. | 50 | HV | - | - | m/f | 5 | e.c. Tab | Non-smoking PM |
+| [Spigset 1997](#5-references)<sup>+</sup> | p.o.      | 50                              | HV           | -                    | -                      |         | 5     | e.c. Tab  | PM                                |
+| [Spigset 1997](#5-references) | p.o.      | 50                              | HV           | -                    | -                      |         | 5     | e.c. Tab  | EM                                |
+| [Iga 2015](#5-references)<sup>+</sup> | i.v. | 50                        | Japanese     | -    | -    | -    | -    | -             | -                                   |
+| [Iga 2015](#5-references) | p.o. | 50                        | Japanese     | -    | -    | -    | -    | -             | -                                   |
+| [Orlando 2009](#5-references) | p.o. | 50                        | HV           | 35   | 79   | male | 10   | -             | -                                   |
+| [Spigset 1998](#5-references)<sup>+</sup> | p.o. | 50 / 100 b.i.d. | HV           | 28.9 | 85.6 | male | 10   | e.c. Tab      | -                                   |
+| [Spigset 1998](#5-references) | p.o. | 12.5/ 25 b.i.d. | HV | 28.9 | 85.6 | male | 10 | e.c. Tab | - |
+| [DeVries 1993](#5-references)<sup>+</sup> | p.o. | 25 / 50/ 100              | HV           | -    | -    | male | 12   | solution      | -                                   |
+| [VanHarten 1994](#5-references) | p.o. | 50                        | HV           | -    | -    | male | 17   | capsule       | -                                   |
+| [VanHarten 1991](#5-references) | p.o. | 50                        | HV           | 24   | 73   | m/f  | 12   | e.c. Tab      | With/ without food                  |
+| [Kunii 2005](#5-references) | p.o. | 50                        | HV           | 29.7 | 69.3 | m    | 10   | e.c. Tab      | -                                   |
+| [Fukasawa 2006](#5-references) | p.o. | 50                        | HV           | 29.6 | 68.3 | m    | 12   | e.c. Tab      | -                                   |
+| [Fleishaker 1994](#5-references)<sup>+</sup> | p.o. | 12.5 - 25 - 50 - 100 q.d. | HV           | 32   | 80   | m    | 20   | e.c. Tab      | -                                   |
+| [Labellarte 2004](#5-references)<sup>+</sup> | p.o. | 25 / 50 / 100/ 150 b.i.d. | Adole-scents | 14   | 60   | m/f  | 23   | e.c. Tab      | -                                   |
+| [Spigset 1997](#5-references) | p.o. | 50                        | HV           | 34.7 | 66.5 | m/f  | 12   | e.c. Tab      | non-smokers / smoker                |
+| [FDA_ClinPharmReview LuvoxCR](#5-references)<sup>+</sup> | p.o. | 100      | HV           | -    | -    | -    | 20   | e.c. Tab / CR | -                                   |
+| [FDA_ClinPharmReview LuvoxCR](#5-references)<sup>+</sup> | p.o. | 100 q.d. | HV | - | - | - | 20 | e.c. Tab / CR | - |
+| [FDA_ClinPharmReview LuvoxCR](#5-references) | p.o. | 200 / 300 q.d. | HV | - | - | - | 20 | e.c. Tab / CR | - |
 
 **Table 2:**<a name="Table 2"></a> Literature sources of clinical concentration data of fluvoxamine used for model development and validation. *e.c.: enteric coated; -: respective information was not provided in the literature source; \*:single dose unless otherwise specified; <sup>+</sup>: Data used for final parameter identification*
 ## 2.3 Model Parameters and Assumptions
 ### 2.3.1 Absorption
 
-The model parameter `Specific intestinal permeability` was optimized to best match clinical data (see  [Section 2.3.4](#2.3.4-Automated-Parameter-Identification)). The default solubility was assumed to be the measured value in the FaSSIF medium (see [Section 2.2.1](#2.2.1-In-vitro-and-physico-chemical-data)).
+The model parameter `Specific intestinal permeability` was optimized to best match clinical data (see  [Section 2.3.4](#234-automated-parameter-identification)). The default solubility was assumed to be the measured value in the FaSSIF medium (see [Section 2.2.1](#221-in-vitro-and-physico-chemical-data)).
 
 The dissolution of enteric-coated tablets were implemented via an empirical Weibull dissolution equation with `Dissolution time (50% dissolved)` = 10 min and `Lag time ` = 30 min.
 
 ### 2.3.2 Distribution
 
-Physico-chemical parameter values were set to the reported values (see [Section 2.2.1](#2.2.1-In-vitro-and-physico-chemical-data)). It was assumed that the major binding partner in plasma is albumin.
+Physico-chemical parameter values were set to the reported values (see [Section 2.2.1](#221-in-vitro-and-physico-chemical-data)). It was assumed that the major binding partner in plasma is albumin.
 
 After testing the available organ-plasma partition coefficient and cell permeability calculation methods available in PK-Sim, observed clinical data were best described by choosing the partition coefficient calculation by `Rodgers and Rowland` and cellular permeability calculation by `PK-Sim Standard`.
 
@@ -120,15 +120,15 @@ Two metabolic pathways were implement in the model:
 * CYP2D6 (saturable Michealis-Menten)
 * CYP1A2 (linear)
 
-As the single elimination route via CYP2D6 was not sufficient to correctly describe the multiple dose administrations, elimination through CYP1A2 has been added as suggested by others ([Alqahtani 2016](# 5 References)).
+As the single elimination route via CYP2D6 was not sufficient to correctly describe the multiple dose administrations, elimination through CYP1A2 has been added as suggested by others ([Alqahtani 2016](#5-references)).
 
 Expression profiles for CYP1A2 and CYP2D6 were obtained from PK-Sim RT PCR database. 
 
-Additionally, renal glomerular filtration was implemented with `GFR fraction` = 1, that resulted in less than 2% of parent fluvoxamine being excreted in urine (4% observed in [DeVries 1993](#5-References)).
+Additionally, renal glomerular filtration was implemented with `GFR fraction` = 1, that resulted in less than 2% of parent fluvoxamine being excreted in urine (4% observed in [DeVries 1993](#5-references)).
 
 ### 2.3.4 Inhibition
 
-Competitive inhibition of  CYP1A2 and CYP2C19 was added with Ki values as listed in [Section 2.2.1](#2.2.1-In-vitro-and-physico-chemical-data). For inhibition of CYP2C19, multiple substrate-specific Ki values are reported, and the modeler has to decide which to select depending on the substrate.
+Competitive inhibition of  CYP1A2 and CYP2C19 was added with Ki values as listed in [Section 2.2.1](#221-in-vitro-and-physico-chemical-data). For inhibition of CYP2C19, multiple substrate-specific Ki values are reported, and the modeler has to decide which to select depending on the substrate.
 
 ### 2.3.5 Automated Parameter Identification
 
@@ -141,9 +141,9 @@ Following parameter values were estimated for the base model:
 # 3 Results and Discussion
 The next sections show:
 
-1. Final model input parameters for the building blocks: [Section 3.1](#3.1-Final-Input-Parameters).
-2. Overall goodness of fit: [Section 3.2](#3.2-Diagnostics-Plots).
-3. Simulated vs. observed concentration-time profiles for the clinical studies used for model building and for model verification: [Section 3.3](#3.3-Concentration-Time-Profiles).
+1. Final model input parameters for the building blocks: [Section 3.1](#31-final-input-parameters).
+2. Overall goodness of fit: [Section 3.2](#32-diagnostics-plots).
+3. Simulated vs. observed concentration-time profiles for the clinical studies used for model building and for model verification: [Section 3.3](#33-concentration-time-profiles).
 
 ## 3.1 Final input parameters
 The parameter values of the final PBPK model are illustrated below.
@@ -243,7 +243,7 @@ Name | Value         | Value Origin
 Ki   | 0.8697 nmol/l | Parameter Identification-Fit to tizanidine concentrations
 
 ## 3.2 Diagnostics Plots
-The following section displays the goodness-of-fit visual diagnostic plots for the PBPK model performance of all data listed in [Section 2.2.2](#2.2.2-Clinical-data).
+The following section displays the goodness-of-fit visual diagnostic plots for the PBPK model performance of all data listed in [Section 2.2.2](#222-clinical-data).
 
 The first plot shows observed versus simulated plasma concentration, the second weighted residuals versus time. 
 
@@ -255,7 +255,7 @@ The first plot shows observed versus simulated plasma concentration, the second 
 GMFE = 1.679152 
 
 ## 3.3 Concentration-Time Profiles
-Simulated versus observed concentration-time profiles of all data listed in [Section 2.2.2](#2.2.2-Clinical-data) are presented below.
+Simulated versus observed concentration-time profiles of all data listed in [Section 2.2.2](#222-clinical-data) are presented below.
 
 ### 3.3.1 Model Building
 
@@ -291,7 +291,7 @@ Simulated versus observed concentration-time profiles of all data listed in [Sec
 # 4 Conclusion
 The developed PBPK model of fluvoxamine describes the PK data after administrations of single as well as multiple doses well. The predictions of the 50 mg dose align closer to the studies where higher concentrations were observed. The most likely explanation is the smoking status of the subjects in the studies showing lower concentrations. Cigarette smoke is known to induce the CYP1A2 enzyme system. Hence, lower fluvoxamine concentrations would be expected in smokers due to the higher metabolism. Although there is no built-in smoking status in PK-Sim, this could be modeled by adapting CYP1A2 expression.
 
-In two studies, data from poor metabolizers were available ([Carillo 1996](#5-References), [Spigset 1997](#5-References)). Concentrations reported by [Carillo 1996](#5-References) were much higher than what [Spigset 1997](#5-References) reported for the subset of PM data. However, notice that plasma levels of extensive metabolizers were also higher in the Carillo-study compared to the other reports. Subjects in the Spigset 1997 dataset were all non-smokers. The reason for this discrepancy is unclear.
+In two studies, data from poor metabolizers were available ([Carillo 1996](#5-references), [Spigset 1997](#5-references)). Concentrations reported by [Carillo 1996](#5-references) were much higher than what [Spigset 1997](#5-references) reported for the subset of PM data. However, notice that plasma levels of extensive metabolizers were also higher in the Carillo-study compared to the other reports. Subjects in the Spigset 1997 dataset were all non-smokers. The reason for this discrepancy is unclear.
 
 The estimated values for Km and Kcat defining the metabolization of fluvoxamine by CYP2D6 were highly correlated (correlation of 0.93), indicating that more data would still be needed to estimate the saturable process with more precision.
 # 5 References
