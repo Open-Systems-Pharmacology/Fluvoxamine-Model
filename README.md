@@ -4,15 +4,14 @@ Whole-body PBPK model of fluvoxamine as an inhibitor of CYP2C19 and CYP1A2
 This repository contains:
 
 - a PK-Sim snapshot (*.json) file of the current PBPK model
+- the PK-Sim project of the current PBPK model created with OSP version 10
+- Evaluation report created with OSP version 10
 - static content (e.g. text blocks, *.md files) as inputs for an evaluation plan
 - an evaluation plan (evaluation-plan.json) to create an evaluation report using the snapshot and static text blocks to display the performance of the model
 
-**The latest release of the snapshot of the model, the evaluation plan and the static content can be found [here](https://github.com/Open-Systems-Pharmacology/Fluvoxamine_CYP1A2_and_2C19_network-Model/releases/latest).**
+**The latest release of the snapshot of the model, the evaluation plan and the static content can be found  in this repository.**
 
-**The latest release of the PK-Sim project model file and the respective evaluation report can be found [here](https://github.com/Open-Systems-Pharmacology/OSP-PBPK-Model-Library/releases/latest).**
-
-
-The presented PBPK model of fluvoxamine has been developed to be used in a PBPK Drug-DrugInteractions (DDI) network with fluvoxamine as an inhibitor of CYP2C19 and CYP1A2. The development of this model is described in the publication by Kanacher *et al.* [[1](https://github.com/Open-Systems-Pharmacology/Ethinylestradiol-Model#references)]
+The presented PBPK model of fluvoxamine has been developed to be used in a PBPK Drug-DrugInteractions (DDI) network with fluvoxamine as an inhibitor of CYP2C19 and CYP1A2. The development of this model is described in the publication by Kanacher *et al.* [[1](https://github.com/Open-Systems-Pharmacology/Fluvoxamine-Model/tree/cyp1a2_cyp2C19_DDI#references)]
 
 ## Contacts
 For your questions and comments about the models please create a new [issue](https://github.com/Open-Systems-Pharmacology/Fluvoxamine-Model/issues). A full publication about models presented is available at: https://www.mdpi.com/1999-4923/12/12/1191 
