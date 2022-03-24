@@ -4,7 +4,7 @@
 
 | Version                                         | 1.1-OSP10.0                                                  |
 | ----------------------------------------------- | ------------------------------------------------------------ |
-| based on *Model Snapshot* and *Evaluation Plan* | https://github.com/Open-Systems-Pharmacology/Fluvoxamine-Model/releases/tag/v1.0 |
+| based on *Model Snapshot* and *Evaluation Plan* | https://github.com/Open-Systems-Pharmacology/Fluvoxamine-Model/releases/tag/altv1.0 |
 | OSP Version                                     | 10.0                                                         |
 | Qualification Framework Version                 | 2.3                                                          |
 
@@ -29,7 +29,7 @@ https://github.com/Open-Systems-Pharmacology/OSP-PBPK-Model-Library/
 # 1 Introduction
 The presented PBPK model of fluvoxamine has been developed to be used in a PBPK Drug-Drug-Interactions (DDI) network with fluvoxamine as an inhibitor of CYP2C19 and CYP1A2.
 
-Fluvoxamine is a selective serotonin reuptake inhibitor. After oral administration, fluvoxamine-maleate is absorbed moderately fast with peak plasma concentrations reached at approx. 2-4 hours post-dose. Approximately 77% of the drug is bound to plasma proteins. The concentration-time profile elicits a bi-phasic shape ([Perucca 1994](#5-references)). Fluvoxamine is extensively metabolized via CYP2D6 and CYP1A2. Plasma concentrations increase non-proportionally with increasing doses, suggesting (partially) saturable metabolism. Fluvoxamine is a strong inhibitor of CYP2C19 and CYP1A2 ([FDA DDI Labeling](#5-references)), and a weak inhibitor of CYP3A (AUCR <2) ([Lam 2003](#5-references)). Only a very minor part of the dose is recovered unchanged in the urine.
+Fluvoxamine is a selective serotonin reuptake inhibitor. After oral administration, fluvoxamine-maleate is absorbed moderately fast with peak plasma concentrations reached at approx. 2-4 hours post-dose. Approximately 77% of the drug is bound to plasma proteins. The concentration-time profile elicits a bi-phasic shape ([Perucca 1994](#5-references)). Fluvoxamine is extensively metabolized via CYP2D6 and CYP1A2. Plasma concentrations increase non-proportionally with increasing doses, suggesting (partially) saturable metabolism. Fluvoxamine is a strong inhibitor of CYP2C19 and CYP1A2 ([FDA DDI Labeling](#5-references)), and a weak inhibitor of CYP3A (AUCR <2) ([Lam 2003](#5-rreferences)). Only a very minor part of the dose is recovered unchanged in the urine.
 
 # 2 Methods
 
