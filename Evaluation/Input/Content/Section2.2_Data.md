@@ -1,6 +1,6 @@
 ### 2.2.1 In vitro and physico-chemical data
 
-A literature search was performed to collect available information on physico-chemical properties of fluvoxamine ([Table 1](#Table 1)).
+A literature search was performed to collect available information on physico-chemical properties of fluvoxamine ([Table 1](#table-1)).
 
 | **Parameter**                     | **Unit** | **Value**       | Source                            | **Description**                                              |
 | :-------------------------------- | -------- | --------------- | --------------------------------- | ------------------------------------------------------------ |
@@ -13,11 +13,11 @@ A literature search was performed to collect available information on physico-ch
 | K<sub>i</sub> CYP2C19<sup>+</sup> | nmol/L   | 3.6             | [Iga 2016](#5-references)         | CYP2C19 inhibition constant (omeprazole as substrate)        |
 | K<sub>i</sub> CYP2C19<sup>+</sup> | nmol/L   | 2.6             | [Iga 2016](#5-references)         | CYP2C19 inhibition constant (s-mephenytoin as substrate)     |
 
-**Table 1:**<a name="Table 1"></a> Physico-chemical and *in-vitro* metabolization properties of fluvoxamine extracted from literature. *<sup>+</sup>: Value used in final model*
+**Table 1:**<a name="table-1"></a> Physico-chemical and *in-vitro* metabolization properties of fluvoxamine extracted from literature. *<sup>+</sup>: Value used in final model*
 
 ### 2.2.2 Clinical data
 
-A literature search was performed to collect available clinical data on fluvoxamine in adults. Data used for model development and validation is listed in [Table 2](#Table 2).
+A literature search was performed to collect available clinical data on fluvoxamine in adults. Data used for model development and validation is listed in [Table 2](#table-2).
 
 | **Source**           | **Route** | **Dose [mg]/**  **Schedule \*** | **Pop.**     | **Age [yrs] (mean)** | **Weight [kg] (mean)** | **Sex** | **N** | **Form.** | **Comment**                       |
 | -------------------- | --------- | ------------------------------- | ------------ | -------------------- | ---------------------- | ------- | ----- | --------- | --------------------------------- |
@@ -42,4 +42,4 @@ A literature search was performed to collect available clinical data on fluvoxam
 | [FDA_ClinPharmReview LuvoxCR](#5-references)<sup>+</sup> | p.o. | 100 q.d. | HV | - | - | - | 20 | e.c. Tab / CR | - |
 | [FDA_ClinPharmReview LuvoxCR](#5-references) | p.o. | 200 / 300 q.d. | HV | - | - | - | 20 | e.c. Tab / CR | - |
 
-**Table 2:**<a name="Table 2"></a> Literature sources of clinical concentration data of fluvoxamine used for model development and validation. *e.c.: enteric coated; -: respective information was not provided in the literature source; \*:single dose unless otherwise specified; <sup>+</sup>: Data used for final parameter identification*
+**Table 2:**<a name="table-2"></a> Literature sources of clinical concentration data of fluvoxamine used for model development and validation. *e.c.: enteric coated; -: respective information was not provided in the literature source; \*:single dose unless otherwise specified; <sup>+</sup>: Data used for final parameter identification*
