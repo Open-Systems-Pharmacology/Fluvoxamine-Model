@@ -1,5 +1,5 @@
 {
-  "Version": 77,
+  "Version": 78,
   "Individuals": [
     {
       "Name": "Caucasian - 1A2,2D6",
@@ -17,132 +17,122 @@
           "Unit": "year(s)"
         }
       },
+      "Parameters": [
+        {
+          "Path": "CYP1A2|Reference concentration",
+          "Value": 1.8,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP1A2|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP1A2|t1/2 (liver)",
+          "Value": 39.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP2D6|Reference concentration",
+          "Value": 0.4,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2D6|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP2D6|t1/2 (liver)",
+          "Value": 51.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.00768702814
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP1A2|Relative expression",
+          "Value": 0.00029559748428
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.768702814
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP1A2|Relative expression",
+          "Value": 4.4025157233E-06
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0208304736
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP1A2|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2D6|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP1A2|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP2D6|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP1A2|Relative expression",
+          "Value": 2.4947589099E-05
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0223404255
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP1A2",
           "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "Gonads",
-              "Value": 0.00029559748428
-            },
-            {
-              "Name": "Kidney",
-              "Value": 4.4025157233E-06
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "Value": 2.4947589099E-05
-            }
-          ],
+          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
           "Ontogeny": {
             "Name": "CYP1A2"
-          },
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 1.8,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 39.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
+          }
         },
         {
           "Name": "CYP2D6",
           "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "Brain",
-              "Value": 0.00768702814
-            },
-            {
-              "Name": "Gonads",
-              "Value": 0.768702814
-            },
-            {
-              "Name": "Kidney",
-              "Value": 0.0208304736
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "Value": 0.0223404255
-            },
-            {
-              "Name": "SmallIntestine",
-              "Value": 0.0909402883
-            },
-            {
-              "Name": "Duodenum",
-              "Value": 0.0909402883
-            },
-            {
-              "Name": "UpperJejunum",
-              "Value": 0.0909402883
-            },
-            {
-              "Name": "LowerJejunum",
-              "Value": 0.0909402883
-            },
-            {
-              "Name": "UpperIleum",
-              "Value": 0.0909402883
-            },
-            {
-              "Name": "LowerIleum",
-              "Value": 0.0909402883
-            }
-          ],
+          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
           "Ontogeny": {
             "Name": "CYP2D6"
-          },
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 0.4,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 51.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
+          }
         }
       ]
     },
@@ -162,132 +152,122 @@
           "Unit": "year(s)"
         }
       },
+      "Parameters": [
+        {
+          "Path": "CYP1A2|Reference concentration",
+          "Value": 1.8,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP1A2|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP1A2|t1/2 (liver)",
+          "Value": 39.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP2D6|Reference concentration",
+          "Value": 0.4,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2D6|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP2D6|t1/2 (liver)",
+          "Value": 51.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.00768702814
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP1A2|Relative expression",
+          "Value": 0.00029559748428
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.768702814
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP1A2|Relative expression",
+          "Value": 4.4025157233E-06
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0208304736
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP1A2|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2D6|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP1A2|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP2D6|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP1A2|Relative expression",
+          "Value": 2.4947589099E-05
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0223404255
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2D6|Relative expression",
+          "Value": 0.0909402883
+        }
+      ],
       "Molecules": [
         {
           "Name": "CYP1A2",
           "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "Gonads",
-              "Value": 0.00029559748428
-            },
-            {
-              "Name": "Kidney",
-              "Value": 4.4025157233E-06
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "Value": 2.4947589099E-05
-            }
-          ],
+          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
           "Ontogeny": {
             "Name": "CYP1A2"
-          },
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 1.8,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 39.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
+          }
         },
         {
           "Name": "CYP2D6",
           "Type": "Enzyme",
-          "MembraneLocation": "Apical",
-          "TissueLocation": "Intracellular",
-          "IntracellularVascularEndoLocation": "Endosomal",
-          "Expression": [
-            {
-              "Name": "Brain",
-              "Value": 0.00768702814
-            },
-            {
-              "Name": "Gonads",
-              "Value": 0.768702814
-            },
-            {
-              "Name": "Kidney",
-              "Value": 0.0208304736
-            },
-            {
-              "Name": "Periportal",
-              "Value": 1.0
-            },
-            {
-              "Name": "Pericentral",
-              "Value": 1.0
-            },
-            {
-              "Name": "Lung",
-              "Value": 0.0223404255
-            },
-            {
-              "Name": "SmallIntestine",
-              "Value": 0.0909402883
-            },
-            {
-              "Name": "Duodenum",
-              "Value": 0.0909402883
-            },
-            {
-              "Name": "UpperJejunum",
-              "Value": 0.0909402883
-            },
-            {
-              "Name": "LowerJejunum",
-              "Value": 0.0909402883
-            },
-            {
-              "Name": "UpperIleum",
-              "Value": 0.0909402883
-            },
-            {
-              "Name": "LowerIleum",
-              "Value": 0.0909402883
-            }
-          ],
+          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
           "Ontogeny": {
             "Name": "CYP2D6"
-          },
-          "Parameters": [
-            {
-              "Name": "Reference concentration",
-              "Value": 0.4,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "t1/2 (liver)",
-              "Value": 51.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "t1/2 (intestine)",
-              "Value": 23.0,
-              "Unit": "h"
-            }
-          ]
+          }
         }
       ]
     }
@@ -684,6 +664,11 @@
           ],
           "Parameters": [
             {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
               "Name": "NumberOfRepetitions",
               "Value": 14.0
             },
@@ -858,6 +843,11 @@
           ],
           "Parameters": [
             {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
               "Name": "NumberOfRepetitions",
               "Value": 3.0
             },
@@ -997,6 +987,11 @@
             }
           ],
           "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
             {
               "Name": "NumberOfRepetitions",
               "Value": 8.0
@@ -1150,6 +1145,11 @@
             }
           ],
           "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
             {
               "Name": "NumberOfRepetitions",
               "Value": 15.0
@@ -1408,6 +1408,22 @@
                 }
               ]
             }
+          ],
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 1.0
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 0.0,
+              "Unit": "h"
+            }
           ]
         },
         {
@@ -1440,6 +1456,15 @@
             {
               "Name": "Start time",
               "Value": 8.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 1.0
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 0.0,
               "Unit": "h"
             }
           ]
@@ -1475,6 +1500,15 @@
               "Name": "Start time",
               "Value": 23.5,
               "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 1.0
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 0.0,
+              "Unit": "h"
             }
           ]
         },
@@ -1508,6 +1542,15 @@
             {
               "Name": "Start time",
               "Value": 33.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "NumberOfRepetitions",
+              "Value": 1.0
+            },
+            {
+              "Name": "TimeBetweenRepetitions",
+              "Value": 0.0,
               "Unit": "h"
             }
           ]
@@ -4843,10 +4886,6 @@
       "Name": "Iga2015.Fluvoxamine.50mg.iv",
       "ExtendedProperties": [
         {
-          "Name": "Source",
-          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Fluvoxamine.xlsx.Iga2015"
-        },
-        {
           "Name": "File",
           "Value": "Data_extract_Fluvoxamine"
         },
@@ -4898,26 +4937,26 @@
             "MolWeight": 318.3346
           },
           "Values": [
-            0.10933549,
-            12.59078,
-            23.977026,
-            29.2317333,
-            34.70557,
-            23.865696,
-            23.0988121,
-            30.1048813,
-            23.7522144,
-            21.3413048,
-            19.2564068,
-            17.6094646,
-            13.8776217,
-            10.6933794,
-            6.7335,
-            4.63493443,
-            1.313715
+            0.000109335495,
+            0.01259078,
+            0.0239770263,
+            0.0292317327,
+            0.03470557,
+            0.023865696,
+            0.0230988115,
+            0.030104883,
+            0.0237522144,
+            0.0213413052,
+            0.0192564055,
+            0.017609464,
+            0.0138776219,
+            0.01069338,
+            0.0067335,
+            0.004634934,
+            0.001313715
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -4959,10 +4998,6 @@
     {
       "Name": "Iga2015.Fluvoxamine.50mg.oral",
       "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Fluvoxamine.xlsx.Iga2015"
-        },
         {
           "Name": "File",
           "Value": "Data_extract_Fluvoxamine"
@@ -5016,22 +5051,22 @@
           },
           "Values": [
             0.0,
-            1.06839466,
-            4.999647,
-            8.358154,
-            9.570538,
-            10.2814388,
-            9.561496,
-            8.765619,
-            8.398501,
-            6.74394369,
-            6.010583,
-            4.113937,
-            2.432545,
-            0.7871256
+            0.00106839475,
+            0.004999647,
+            0.008358154,
+            0.009570537,
+            0.0102814389,
+            0.009561496,
+            0.008765619,
+            0.008398501,
+            0.006743944,
+            0.006010583,
+            0.004113937,
+            0.002432545,
+            0.0007871256
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -5070,10 +5105,6 @@
     {
       "Name": "DeVries1993.Fluvoxamine.25mg.po.solution",
       "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Fluvoxamine.xlsx.DeVries1993"
-        },
         {
           "Name": "File",
           "Value": "Data_extract_Fluvoxamine"
@@ -5126,19 +5157,19 @@
             "MolWeight": 318.3346
           },
           "Values": [
-            3.912525,
-            5.57362652,
-            7.136851,
-            6.889336,
-            6.24725628,
-            5.55670643,
-            4.9638,
-            4.175608,
-            3.18578553,
-            1.94022381
+            0.003912525,
+            0.00557362661,
+            0.00713685062,
+            0.00688933628,
+            0.00624725642,
+            0.005556707,
+            0.0049638,
+            0.00417560851,
+            0.00318578561,
+            0.00194022374
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -5173,10 +5204,6 @@
     {
       "Name": "DeVries1993.Fluvoxamine.50mg.po.solution",
       "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Fluvoxamine.xlsx.DeVries1993"
-        },
         {
           "Name": "File",
           "Value": "Data_extract_Fluvoxamine"
@@ -5229,21 +5256,21 @@
             "MolWeight": 318.3346
           },
           "Values": [
-            3.37396216,
-            9.831309,
-            11.7860441,
-            15.4538746,
-            15.839982,
-            14.1701832,
-            12.157814,
-            9.75464,
-            8.667174,
-            5.708517,
-            4.70788431,
-            2.46263
+            0.00337396213,
+            0.009831309,
+            0.0117860446,
+            0.0154538751,
+            0.01583998,
+            0.0141701829,
+            0.0121578146,
+            0.00975464,
+            0.008667175,
+            0.005708517,
+            0.00470788451,
+            0.00246263016
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -5280,10 +5307,6 @@
     {
       "Name": "DeVries1993.Fluvoxamine.100mg.po.solution",
       "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Fluvoxamine.xlsx.DeVries1993"
-        },
         {
           "Name": "File",
           "Value": "Data_extract_Fluvoxamine"
@@ -5336,22 +5359,22 @@
             "MolWeight": 318.3346
           },
           "Values": [
-            7.338481,
-            21.4789963,
-            30.5790424,
-            33.1702156,
-            34.3880463,
-            29.4393463,
-            26.4484367,
-            23.7024536,
-            21.195528,
-            14.2243519,
-            9.748589,
-            5.35025835,
-            2.05519772
+            0.007338481,
+            0.0214789957,
+            0.0305790417,
+            0.0331702158,
+            0.0343880467,
+            0.0294393469,
+            0.0264484361,
+            0.0237024538,
+            0.021195529,
+            0.0142243514,
+            0.009748588,
+            0.00535025867,
+            0.00205519772
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -5389,10 +5412,6 @@
     {
       "Name": "Fm.Fluvoxamine.2D6",
       "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Test_Fluvox_fm.xlsx.Sheet1"
-        },
         {
           "Name": "File",
           "Value": "Test_Fluvox_fm"
@@ -5466,10 +5485,6 @@
       "Name": "Fm.Fluvoxamine.1A2",
       "ExtendedProperties": [
         {
-          "Name": "Source",
-          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Test_Fluvox_fm.xlsx.Sheet1"
-        },
-        {
           "Name": "File",
           "Value": "Test_Fluvox_fm"
         },
@@ -5542,10 +5557,6 @@
       "Name": "Kuni2005.Fluvoxamine.50.po.sd",
       "ExtendedProperties": [
         {
-          "Name": "Source",
-          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Fluvoxamine.xlsx.Kuni2005"
-        },
-        {
           "Name": "File",
           "Value": "Data_extract_Fluvoxamine"
         },
@@ -5605,19 +5616,19 @@
             "MolWeight": 318.3346
           },
           "Values": [
-            0.3896104,
-            4.44155836,
-            7.422078,
-            9.564935,
-            9.097403,
-            7.305195,
-            5.318182,
-            3.66233778,
-            2.37662339,
-            1.1883117
+            0.0003896104,
+            0.00444155838,
+            0.007422078,
+            0.009564934,
+            0.009097403,
+            0.00730519462,
+            0.005318182,
+            0.00366233778,
+            0.00237662345,
+            0.00118831173
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -5652,10 +5663,6 @@
     {
       "Name": "Culm-Merdek2005.Fluvoxamine.100.po.bid.postDose3",
       "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Fluvoxamine.xlsx.Culm-Merdek2005"
-        },
         {
           "Name": "File",
           "Value": "Data_extract_Fluvoxamine"
@@ -5752,17 +5759,17 @@
             "MolWeight": 318.3346
           },
           "Values": [
-            71.75161,
-            99.97389,
-            115.247643,
-            109.537025,
-            105.122932,
-            102.251686,
-            119.846275,
-            90.14
+            0.07175161,
+            0.09997389,
+            0.115247644,
+            0.109537028,
+            0.105122931,
+            0.102251686,
+            0.119846277,
+            0.09014
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -5795,10 +5802,6 @@
     {
       "Name": "Fukasama2006.Fluvoxamine.50.po.sd",
       "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Fluvoxamine.xlsx.Fukasama2006"
-        },
         {
           "Name": "File",
           "Value": "Data_extract_Fluvoxamine"
@@ -5889,19 +5892,19 @@
             "MolWeight": 318.3346
           },
           "Values": [
-            0.491603047,
-            4.29618359,
-            7.60916042,
-            10.0244274,
-            9.447329,
-            7.6519084,
-            5.664122,
-            3.99694681,
-            2.43664122,
-            1.15419853
+            0.000491603045,
+            0.00429618359,
+            0.00760916062,
+            0.0100244274,
+            0.009447328,
+            0.00765190832,
+            0.00566412229,
+            0.003996947,
+            0.00243664114,
+            0.00115419854
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -5936,10 +5939,6 @@
     {
       "Name": "Orlando2009.Fluvoxamine.50.poSD.Elderly",
       "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Fluvoxamine.xlsx.Orlando2009"
-        },
         {
           "Name": "File",
           "Value": "Data_extract_Fluvoxamine"
@@ -6096,10 +6095,6 @@
       "Name": "Orlando2009.Fluvoxamine.50.poSD.young",
       "ExtendedProperties": [
         {
-          "Name": "Source",
-          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Fluvoxamine.xlsx.Orlando2009"
-        },
-        {
           "Name": "File",
           "Value": "Data_extract_Fluvoxamine"
         },
@@ -6194,24 +6189,24 @@
             "MolWeight": 318.3346
           },
           "Values": [
-            0.746107,
-            1.43538654,
-            6.837732,
-            11.32732,
-            13.9135218,
-            14.3092117,
-            13.5287743,
-            11.7588644,
-            10.4133711,
-            5.11759949,
-            3.55421948,
-            2.586544,
-            1.17955589,
-            0.642463446,
-            0.353214
+            0.000746107,
+            0.0014353866,
+            0.00683773169,
+            0.0113273207,
+            0.0139135215,
+            0.0143092116,
+            0.0135287745,
+            0.0117588639,
+            0.010413372,
+            0.0051176,
+            0.00355421961,
+            0.002586544,
+            0.0011795559,
+            0.000642463448,
+            0.000353213982
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -6251,10 +6246,6 @@
     {
       "Name": "Fleishaker1994.Fluvoxamine.50.po.qd.day1and2",
       "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Fluvoxamine.xlsx.Fleishaker1994"
-        },
         {
           "Name": "File",
           "Value": "Data_extract_Fluvoxamine"
@@ -6316,19 +6307,19 @@
           },
           "Values": [
             0.0,
-            2.41,
-            8.28,
-            17.65,
-            20.5,
-            19.43,
-            16.1999989,
-            13.85,
-            11.06,
-            9.8,
-            14.4000006
+            0.00241,
+            0.00828,
+            0.0176499989,
+            0.0205,
+            0.01943,
+            0.0162,
+            0.0138500007,
+            0.01106,
+            0.0098,
+            0.0144000007
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -6364,10 +6355,6 @@
     {
       "Name": "Fleishaker1994.Fluvoxamine.100.po.qd.day3to10",
       "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Fluvoxamine.xlsx.Fleishaker1994"
-        },
         {
           "Name": "File",
           "Value": "Data_extract_Fluvoxamine"
@@ -6428,35 +6415,35 @@
             "MolWeight": 318.3346
           },
           "Values": [
-            17.48,
-            33.170002,
-            41.04,
-            49.33,
-            51.98,
-            58.1,
-            53.5799942,
-            59.0199966,
-            69.8999939,
-            84.9200058,
-            88.19,
-            86.89,
-            85.39,
-            89.1,
-            84.98,
-            81.51,
-            77.6,
-            76.1,
-            72.85,
-            70.25,
-            70.7,
-            64.85,
-            61.17,
-            58.59,
-            56.03,
-            50.4400024
+            0.017479999,
+            0.0331700034,
+            0.04104,
+            0.04933,
+            0.05198,
+            0.0581,
+            0.0535799973,
+            0.0590199977,
+            0.0699,
+            0.084920004,
+            0.08819,
+            0.08689,
+            0.08539,
+            0.0890999958,
+            0.08498,
+            0.08151,
+            0.0776,
+            0.0761,
+            0.07285,
+            0.0702500045,
+            0.0707,
+            0.06485,
+            0.06117,
+            0.05859,
+            0.05603,
+            0.050440006
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -6507,10 +6494,6 @@
     {
       "Name": "Labellarte2004.Fluvoxamine.25.po.bid.Day7",
       "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Fluvoxamine.xlsx.Labellarte2004"
-        },
         {
           "Name": "File",
           "Value": "Data_extract_Fluvoxamine"
@@ -6563,16 +6546,16 @@
             "MolWeight": 318.3346
           },
           "Values": [
-            15.1296864,
-            17.8026962,
-            19.4812565,
-            22.1859779,
-            18.8130035,
-            15.451354,
-            10.0917435
+            0.0151296863,
+            0.0178026967,
+            0.0194812566,
+            0.0221859775,
+            0.0188130029,
+            0.015451354,
+            0.0100917434
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -6604,10 +6587,6 @@
     {
       "Name": "Labellarte2004.Fluvoxamine.50.po.bid.Day14",
       "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Fluvoxamine.xlsx.Labellarte2004"
-        },
         {
           "Name": "File",
           "Value": "Data_extract_Fluvoxamine"
@@ -6660,16 +6639,16 @@
             "MolWeight": 318.3346
           },
           "Values": [
-            51.41239,
-            56.133194,
-            64.5227661,
-            63.49078,
-            56.9600334,
-            53.8625221,
-            45.26626
+            0.0514123924,
+            0.056133192,
+            0.0645227656,
+            0.06349078,
+            0.05696003,
+            0.0538625233,
+            0.04526626
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -6701,10 +6680,6 @@
     {
       "Name": "Labellarte2004.Fluvoxamine.100.po.bid.Day28",
       "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Fluvoxamine.xlsx.Labellarte2004"
-        },
         {
           "Name": "File",
           "Value": "Data_extract_Fluvoxamine"
@@ -6757,16 +6732,16 @@
             "MolWeight": 318.3346
           },
           "Values": [
-            171.909576,
-            205.31218,
-            223.566086,
-            215.644409,
-            193.2904,
-            172.983337,
-            165.75325
+            0.171909571,
+            0.205312178,
+            0.223566085,
+            0.2156444,
+            0.1932904,
+            0.172983333,
+            0.165753245
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -6798,10 +6773,6 @@
     {
       "Name": "Labellarte2004.Fluvoxamine.150.po.bid.Day42",
       "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Fluvoxamine.xlsx.Labellarte2004"
-        },
         {
           "Name": "File",
           "Value": "Data_extract_Fluvoxamine"
@@ -6854,16 +6825,16 @@
             "MolWeight": 318.3346
           },
           "Values": [
-            310.980042,
-            325.1107,
-            341.30835,
-            329.2618,
-            308.263184,
-            297.607574,
-            295.8948
+            0.310980022,
+            0.325110674,
+            0.341308355,
+            0.3292618,
+            0.308263183,
+            0.297607571,
+            0.2958948
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -6895,10 +6866,6 @@
     {
       "Name": "Spigset1998.Fluvoxamine.MAD.PO.bid.trough",
       "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Fluvoxamine.xlsx.Spigset1998"
-        },
         {
           "Name": "File",
           "Value": "Data_extract_Fluvoxamine"
@@ -7006,10 +6973,6 @@
     {
       "Name": "Spigset1998.Fluvoxamine.MAD.PO.bid.week4",
       "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Fluvoxamine.xlsx.Spigset1998"
-        },
         {
           "Name": "File",
           "Value": "Data_extract_Fluvoxamine"
@@ -7287,10 +7250,6 @@
       "Name": "Spigset1995.Fluvoxamine.50mg.po.sd",
       "ExtendedProperties": [
         {
-          "Name": "Source",
-          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Fluvoxamine.xlsx.Spigset1995"
-        },
-        {
           "Name": "File",
           "Value": "Data_extract_Fluvoxamine"
         },
@@ -7422,10 +7381,6 @@
       "Name": "FDAreview.Fluvoxamine.p18.enteric coated.MD.100",
       "ExtendedProperties": [
         {
-          "Name": "Source",
-          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Fluvoxamine.xlsx.FDA_Rev_Luvox"
-        },
-        {
           "Name": "File",
           "Value": "Data_extract_Fluvoxamine"
         },
@@ -7513,25 +7468,25 @@
             "MolWeight": 318.3346
           },
           "Values": [
-            67.579155,
-            69.31541,
-            92.22464,
-            103.103127,
-            108.218567,
-            108.758011,
-            111.217079,
-            115.370621,
-            112.785271,
-            101.063255,
-            106.898735,
-            89.46102,
-            93.90796,
-            82.4863052,
-            63.4933968,
-            63.4827156
+            0.06757916,
+            0.0693154,
+            0.0922246352,
+            0.103103124,
+            0.108218566,
+            0.10875801,
+            0.111217074,
+            0.115370616,
+            0.112785272,
+            0.101063259,
+            0.106898732,
+            0.08946102,
+            0.09390796,
+            0.0824863,
+            0.06349339,
+            0.06348272
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -7572,10 +7527,6 @@
     {
       "Name": "FDAreview.Fluvoxamine.p37.CR.MD.100",
       "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Fluvoxamine.xlsx.FDA_Rev_Luvox"
-        },
         {
           "Name": "File",
           "Value": "Data_extract_Fluvoxamine"
@@ -7664,25 +7615,25 @@
             "MolWeight": 318.3346
           },
           "Values": [
-            31.35948,
-            32.19959,
-            27.1488132,
-            26.6760578,
-            28.661108,
-            33.4937859,
-            33.7451859,
-            38.23048,
-            36.67966,
-            36.95718,
-            36.4974823,
-            33.05499,
-            38.8468933,
-            36.4824638,
-            29.6366539,
-            33.0869827
+            0.03135948,
+            0.03219959,
+            0.027148813,
+            0.0266760588,
+            0.0286611076,
+            0.0334937871,
+            0.0337451845,
+            0.0382304825,
+            0.0366796628,
+            0.03695718,
+            0.03649748,
+            0.03305499,
+            0.03884689,
+            0.0364824645,
+            0.0296366531,
+            0.0330869853
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -7723,10 +7674,6 @@
     {
       "Name": "FDAreview.Fluvoxamine.p37.CR.MD.200",
       "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Fluvoxamine.xlsx.FDA_Rev_Luvox"
-        },
         {
           "Name": "File",
           "Value": "Data_extract_Fluvoxamine"
@@ -7815,25 +7762,25 @@
             "MolWeight": 318.3346
           },
           "Values": [
-            105.4054,
-            104.53463,
-            117.664238,
-            111.273788,
-            110.027794,
-            125.374779,
-            132.241058,
-            125.843811,
-            122.762459,
-            118.951027,
-            112.192154,
-            114.881973,
-            124.571983,
-            113.258018,
-            108.679817,
-            116.631676
+            0.105405405,
+            0.104534626,
+            0.117664233,
+            0.111273795,
+            0.11002779,
+            0.125374779,
+            0.132241055,
+            0.125843808,
+            0.122762457,
+            0.11895103,
+            0.112192154,
+            0.11488197,
+            0.124571986,
+            0.113258019,
+            0.108679824,
+            0.116631672
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -7874,10 +7821,6 @@
     {
       "Name": "FDAreview.Fluvoxamine.p37.CR.MD.300",
       "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Fluvoxamine.xlsx.FDA_Rev_Luvox"
-        },
         {
           "Name": "File",
           "Value": "Data_extract_Fluvoxamine"
@@ -7966,25 +7909,25 @@
             "MolWeight": 318.3346
           },
           "Values": [
-            199.345139,
-            197.389465,
-            195.798813,
-            194.552811,
-            233.097366,
-            232.588242,
-            257.5144,
-            257.759155,
-            267.562683,
-            234.628189,
-            254.024536,
-            268.521149,
-            249.483719,
-            259.1805,
-            242.075653,
-            221.634537
+            0.199345142,
+            0.197389469,
+            0.195798814,
+            0.194552809,
+            0.233097374,
+            0.232588232,
+            0.257514417,
+            0.257759154,
+            0.2675627,
+            0.234628186,
+            0.254024535,
+            0.26852116,
+            0.249483719,
+            0.259180516,
+            0.242075652,
+            0.221634537
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -8025,10 +7968,6 @@
     {
       "Name": "FDAreview.Fluvoxamine.100.sd.Luvox",
       "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Fluvoxamine.xlsx.FDA_Rev_Luvox_SD"
-        },
         {
           "Name": "File",
           "Value": "Data_extract_Fluvoxamine"
@@ -8077,26 +8016,26 @@
             "MolWeight": 318.3346
           },
           "Values": [
-            1.84755206,
-            12.2697306,
-            20.4863319,
-            22.8205338,
-            24.5420723,
-            24.427372,
-            23.8208027,
-            19.0542412,
-            18.0809479,
-            19.4409828,
-            14.9186134,
-            14.8100061,
-            10.3006907,
-            10.2051363,
-            8.896446,
-            3.98751,
-            1.318959
+            0.00184755214,
+            0.0122697307,
+            0.0204863325,
+            0.0228205323,
+            0.02454207,
+            0.024427373,
+            0.0238208026,
+            0.0190542415,
+            0.0180809479,
+            0.0194409825,
+            0.0149186142,
+            0.0148100061,
+            0.0103006912,
+            0.0102051366,
+            0.008896446,
+            0.00398750976,
+            0.001318959
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -8138,10 +8077,6 @@
     {
       "Name": "Spigset1995.Fluvoxamine.50mg.po.sd.smokers",
       "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Fluvoxamine.xlsx.Spigset1995"
-        },
         {
           "Name": "File",
           "Value": "Data_extract_Fluvoxamine"
@@ -8278,10 +8213,6 @@
       "Name": "Carillo1996.Fluvoxamine.50mg.po.sd.Non-smokingEM",
       "ExtendedProperties": [
         {
-          "Name": "Source",
-          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Fluvoxamine.xlsx.Carillo1996"
-        },
-        {
           "Name": "File",
           "Value": "Data_extract_Fluvoxamine"
         },
@@ -8409,10 +8340,6 @@
       "Name": "Carillo1996.Fluvoxamine.50mg.po.sd.SmokingEM",
       "ExtendedProperties": [
         {
-          "Name": "Source",
-          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Fluvoxamine.xlsx.Carillo1996"
-        },
-        {
           "Name": "File",
           "Value": "Data_extract_Fluvoxamine"
         },
@@ -8539,10 +8466,6 @@
     {
       "Name": "Carillo1996.Fluvoxamine.50mg.po.sd.Non-SmokingPM",
       "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Fluvoxamine.xlsx.Carillo1996"
-        },
         {
           "Name": "File",
           "Value": "Data_extract_Fluvoxamine"
@@ -8676,10 +8599,6 @@
     {
       "Name": "Spigset1997.Fluvoxamine.50mg.sd.po.PM",
       "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Fluvoxamine.xlsx.Spigset1997"
-        },
         {
           "Name": "File",
           "Value": "Data_extract_Fluvoxamine"
@@ -8815,10 +8734,6 @@
     {
       "Name": "Spigset1997.Fluvoxamine.50mg.sd.po.EM",
       "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "C:\\Exprimo\\Clients\\Boehringer\\1375a_BI_TK_BI409306_PBPK_DDI\\OriginalData\\Clinical_Data_Publications\\_DataExtraction\\Data_extract_Fluvoxamine.xlsx.Spigset1997"
-        },
         {
           "Name": "File",
           "Value": "Data_extract_Fluvoxamine"
@@ -8974,11 +8889,11 @@
       "Name": "PO.SD",
       "Classifiables": [
         "50mg_oral_SD_entericCoated_MM2D6_linear1A2",
-        "50mg_oral_SD_entericCoated_PM",
         "DeVries1993 - 100mg PO - MM 2D6 - linear1A2 fm",
         "DeVries1993 - 25mg PO - MM 2D6 - linear 1A2 fm",
         "DeVries1993 - 50mg PO - MM 2D6 - linear 1A2 fm",
-        "FDArev - 100mg PO single- MM 2D6 - linear1A2"
+        "FDArev - 100mg PO single- MM 2D6 - linear1A2",
+        "50mg_oral_SD_entericCoated_PM"
       ]
     }
   ]

@@ -1,6 +1,6 @@
 ### 2.3.1 Absorption
 
-The model parameter `Specific intestinal permeability` was optimized to best match clinical data (see  [Section 2.3.4](#234-automated-parameter-identification)). The default solubility was assumed to be the measured value in the FaSSIF medium (see [Section 2.2.1](#221-in-vitro-and-physico-chemical-data)).
+The model parameter `Specific intestinal permeability` was optimized to best match clinical data (see  [Section 2.3.4](#235-automated-parameter-identification)). The default solubility was assumed to be the measured value in the FaSSIF medium (see [Section 2.2.1](#221-in-vitro-and-physico-chemical-data)).
 
 The dissolution of enteric-coated tablets was implemented via an empirical Weibull dissolution equation with `Dissolution time (50% dissolved)` = 10 min and `Lag time ` = 30 min.
 

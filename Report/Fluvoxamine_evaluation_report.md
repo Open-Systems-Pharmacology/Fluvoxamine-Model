@@ -4,7 +4,7 @@
 
 | Version                                         | 1.1-OSP10.0                                                  |
 | ----------------------------------------------- | ------------------------------------------------------------ |
-| based on *Model Snapshot* and *Evaluation Plan* | https://github.com/Open-Systems-Pharmacology/Fluvoxamine-Model/releases/tag/v1.0 |
+| based on *Model Snapshot* and *Evaluation Plan* | https://github.com/Open-Systems-Pharmacology/Fluvoxamine-Model/releases/tag/altv1.0 |
 | OSP Version                                     | 10.0                                                         |
 | Qualification Framework Version                 | 2.3                                                          |
 
@@ -57,7 +57,7 @@ Details about the structural model and its parameters can be found in [Section 2
 ## 2.2 Data
 ### 2.2.1 In vitro and physico-chemical data
 
-A literature search was performed to collect available information on physico-chemical properties of fluvoxamine ([Table 1](#Table 1)).
+A literature search was performed to collect available information on physico-chemical properties of fluvoxamine ([Table 1](#table-1)).
 
 | **Parameter**                     | **Unit** | **Value**       | Source                            | **Description**                                              |
 | :-------------------------------- | -------- | --------------- | --------------------------------- | ------------------------------------------------------------ |
@@ -70,11 +70,11 @@ A literature search was performed to collect available information on physico-ch
 | K<sub>i</sub> CYP2C19<sup>+</sup> | nmol/L   | 3.6             | [Iga 2016](#5-references)         | CYP2C19 inhibition constant (omeprazole as substrate)        |
 | K<sub>i</sub> CYP2C19<sup>+</sup> | nmol/L   | 2.6             | [Iga 2016](#5-references)         | CYP2C19 inhibition constant (s-mephenytoin as substrate)     |
 
-**Table 1:**<a name="Table 1"></a> Physico-chemical and *in-vitro* metabolization properties of fluvoxamine extracted from literature. *<sup>+</sup>: Value used in final model*
+**Table 1:**<a name="table-1"></a> Physico-chemical and *in-vitro* metabolization properties of fluvoxamine extracted from literature. *<sup>+</sup>: Value used in final model*
 
 ### 2.2.2 Clinical data
 
-A literature search was performed to collect available clinical data on fluvoxamine in adults. Data used for model development and validation is listed in [Table 2](#Table 2).
+A literature search was performed to collect available clinical data on fluvoxamine in adults. Data used for model development and validation is listed in [Table 2](#table-2).
 
 | **Source**           | **Route** | **Dose [mg]/**  **Schedule \*** | **Pop.**     | **Age [yrs] (mean)** | **Weight [kg] (mean)** | **Sex** | **N** | **Form.** | **Comment**                       |
 | -------------------- | --------- | ------------------------------- | ------------ | -------------------- | ---------------------- | ------- | ----- | --------- | --------------------------------- |
@@ -99,11 +99,11 @@ A literature search was performed to collect available clinical data on fluvoxam
 | [FDA_ClinPharmReview LuvoxCR](#5-references)<sup>+</sup> | p.o. | 100 q.d. | HV | - | - | - | 20 | e.c. Tab / CR | - |
 | [FDA_ClinPharmReview LuvoxCR](#5-references) | p.o. | 200 / 300 q.d. | HV | - | - | - | 20 | e.c. Tab / CR | - |
 
-**Table 2:**<a name="Table 2"></a> Literature sources of clinical concentration data of fluvoxamine used for model development and validation. *e.c.: enteric coated; -: respective information was not provided in the literature source; \*:single dose unless otherwise specified; <sup>+</sup>: Data used for final parameter identification*
+**Table 2:**<a name="table-2"></a> Literature sources of clinical concentration data of fluvoxamine used for model development and validation. *e.c.: enteric coated; -: respective information was not provided in the literature source; \*:single dose unless otherwise specified; <sup>+</sup>: Data used for final parameter identification*
 ## 2.3 Model Parameters and Assumptions
 ### 2.3.1 Absorption
 
-The model parameter `Specific intestinal permeability` was optimized to best match clinical data (see  [Section 2.3.4](#234-automated-parameter-identification)). The default solubility was assumed to be the measured value in the FaSSIF medium (see [Section 2.2.1](#221-in-vitro-and-physico-chemical-data)).
+The model parameter `Specific intestinal permeability` was optimized to best match clinical data (see  [Section 2.3.4](#235-automated-parameter-identification)). The default solubility was assumed to be the measured value in the FaSSIF medium (see [Section 2.2.1](#221-in-vitro-and-physico-chemical-data)).
 
 The dissolution of enteric-coated tablets was implemented via an empirical Weibull dissolution equation with `Dissolution time (50% dissolved)` = 10 min and `Lag time ` = 30 min.
 
