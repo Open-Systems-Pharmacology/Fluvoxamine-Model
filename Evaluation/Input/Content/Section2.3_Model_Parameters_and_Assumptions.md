@@ -6,7 +6,7 @@ The specific intestinal permeability was identified during parameter identificat
 
 ### 2.3.2	Distribution
 
-It is described in literature that fluvoxamine is moderately bound to plasma proteins (77%, [Claassen 1983](#5-references)). This value was impelented in PK-Sim®. The protein binding partner was set to unknown. 
+It is described in literature that fluvoxamine is moderately bound to plasma proteins (77%, [Claassen 1983](#5-references)). This value was implemented in PK-Sim®. The protein binding partner was set to unknown. 
 
 An important parameter influencing the distribution of a compound is lipophilicity. To accurately describe the distribution of fluvoxamine, logP was optimized during parameter identification to match observed clinical data.
 

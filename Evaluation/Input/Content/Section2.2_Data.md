@@ -1,6 +1,6 @@
 ### 2.2.1	In vitro / physico-chemical Data
 
-A literature search was performed to collect available information on physiochemical properties of fluvoxamine. The obtained information from literature is summarized in the table below. 
+A literature search was performed to collect available information on physicochemical properties of fluvoxamine. The obtained information from literature is summarized in the table below. 
 
 | **Parameter**          | **Unit** | **Value**               | Source                                              | **Description**                                              |
 | :--------------------- | -------- | ----------------------- | --------------------------------------------------- | ------------------------------------------------------------ |
