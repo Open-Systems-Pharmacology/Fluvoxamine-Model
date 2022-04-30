@@ -1,0 +1,20 @@
+name: XRefCheck
+
+on: 
+  push:
+    branches:
+      - review
+
+permissions:
+  contents: read
+
+jobs:
+  markdown-link-check:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: ${{ github.event.pull_request.head.sha }}
+    - uses: serokell/xrefcheck-action@v1
+      with:
+        xrefcheck-args: --mode local-only --ignored Evaluation/Input --ignored README.md
