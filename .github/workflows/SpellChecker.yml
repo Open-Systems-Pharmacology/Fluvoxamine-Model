@@ -13,4 +13,7 @@ jobs:
     - uses: actions/checkout@v2
       with:
         ref: ${{ github.event.pull_request.head.sha }}
+    - run: |
+        wget --no-check-certificate https://raw.githubusercontent.com/Open-Systems-Pharmacology/docs/master/.github/workflows/wordlist.txt
+        mv ./wordlist.txt ./wordlist_osp_docs.txt
     - uses: rojopolis/spellcheck-github-actions@0.16.0

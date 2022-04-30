@@ -5,7 +5,7 @@ matrix:
   dictionary:
     wordlists:
     - .github/workflows/wordlist.txt
-    - https://raw.githubusercontent.com/Open-Systems-Pharmacology/docs/master/.github/workflows/wordlist.txt
+    - ./wordlist_osp_docs.txt
     encoding: utf-8
   pipeline:
   - pyspelling.filters.markdown:
