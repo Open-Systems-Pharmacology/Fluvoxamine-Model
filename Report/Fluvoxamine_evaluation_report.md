@@ -8,9 +8,7 @@
 | OSP Version                                     | 10.0                                                         |
 | Qualification Framework Version                 | 2.3                                                          |
 
-This evaluation report and the corresponding PK-Sim project file are filed at:
 
-https://github.com/Open-Systems-Pharmacology/OSP-PBPK-Model-Library/
 # Table of Contents
   * [1 Introduction](#1-introduction)
   * [2 Methods](#2-methods)
