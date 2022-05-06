@@ -2,8 +2,8 @@ name: XRefCheck
 
 on: 
   push:
-    branches:
-      - review
+#    branches:
+#      - review
 
 jobs:
   crossref-check-without-anchors:

@@ -4,7 +4,7 @@
 
 | Version                                         | 1.1-OSP10.0                                                  |
 | ----------------------------------------------- | ------------------------------------------------------------ |
-| based on *Model Snapshot* and *Evaluation Plan* | https://github.com/Open-Systems-Pharmacology/Fluvoxamine-Model/releases/tag/altv1.0 |
+| based on *Model Snapshot* and *Evaluation Plan* | https://github.com/Open-Systems-Pharmacology/Fluvoxamine-Model/releases/tag/alt_v1.0 |
 | OSP Version                                     | 10.0                                                         |
 | Qualification Framework Version                 | 2.3                                                          |
 
