@@ -11,9 +11,9 @@ Aug;60(2):183-90
 
 **DrugBank DB00176** (https://www.drugbank.ca/drugs/DB00176)
 
-**FDA_ClinPharmReview LuvoxCR** FDA\_ClinPharmReview LuvoxCR, NDA 22-033, FDADrug\_42.pdf, website: digitalcollections.ohsu.edu/downloads/6m311p63g?locale=en
+**FDA_ClinPharmReview LuvoxCR** FDA\_ClinPharmReview LuvoxCR, NDA 22-033, FDADrug\_42.pdf, website: http://digitalcollections.ohsu.edu/downloads/6m311p63g?locale=en
 
-**FDA DDI Labeling** U.S. Food and Drug Administration. Drug development and drug interactions: table of substrates, inhibitors and inducers. \<Website fda.gov/Drugs/DevelopmentApprovalProcess/DevelopmentResources/DrugInteractionsLabeling/ucm093664.html (2017). Accessed 04 March 2019.
+**FDA DDI Labeling** U.S. Food and Drug Administration. Drug development and drug interactions: table of substrates, inhibitors and inducers, website: https://www.fda.gov/drugs/drug-interactions-labeling/drug-development-and-drug-interactions-table-substrates-inhibitors-and-inducers (2020). Accessed 06 May 2022.
 
 **Fleishaker 1994** Fleishaker JC, Hulst LK. A pharmacokinetic and pharmacodynamic evaluation of the combined administration of alprazolam and fluvoxamine. European Journal of Clinical Pharmacology. 1994;46(1):35--9.
 
