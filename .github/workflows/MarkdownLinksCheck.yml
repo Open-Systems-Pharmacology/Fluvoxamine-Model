@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - review
+
+permissions:
+  contents: read
  
 jobs:
   markdown-link-check:
