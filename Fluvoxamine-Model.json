@@ -216,7 +216,7 @@
         },
         {
           "Path": "Organism|Kidney|Intracellular|CYP1A2|Relative expression",
-          "Value": 4.4025157233E-06,
+          "Value": 4.4025157233e-06,
           "ValueOrigin": {}
         },
         {
@@ -231,7 +231,7 @@
         },
         {
           "Path": "Organism|Lung|Intracellular|CYP1A2|Relative expression",
-          "Value": 2.4947589099E-05,
+          "Value": 2.4947589099e-05,
           "ValueOrigin": {}
         }
       ],
@@ -274,7 +274,7 @@
         },
         {
           "Path": "Organism|Kidney|Intracellular|CYP1A2|Relative expression",
-          "Value": 4.4025157233E-06,
+          "Value": 4.4025157233e-06,
           "ValueOrigin": {}
         },
         {
@@ -289,7 +289,7 @@
         },
         {
           "Path": "Organism|Lung|Intracellular|CYP1A2|Relative expression",
-          "Value": 2.4947589099E-05,
+          "Value": 2.4947589099e-05,
           "ValueOrigin": {}
         }
       ],
@@ -1545,7 +1545,7 @@
           "Parameters": [
             {
               "Name": "Specific intestinal permeability (transcellular)",
-              "Value": 2.7380788903E-06,
+              "Value": 2.7380788903e-06,
               "Unit": "dm/min",
               "ValueOrigin": {
                 "Source": "ParameterIdentification"
@@ -3033,7 +3033,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Christensen 2002, 10 mg bid EM-Fluvoxamine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Christensen 2002, 10 mg bid EM|Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Christensen 2002.10 mg BID.EM.NO-Fluvoxamine-Peripheral Venous Blood-Plasma-CONC",
+              "X": "Christensen 2002.10 mg BID.EM.non-smoker|TIME",
+              "Y": "Christensen 2002.10 mg BID.EM.non-smoker|ObservedData|Peripheral Venous Blood|Plasma|Fluvoxamine|CONC",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluvoxamine-Model\nChristensen 2002, 10 mg bid EM NA\n2019-11-14 14:07"
+        }
+      ]
     },
     {
       "Name": "Christensen 2002, 10 mg QD PM",
@@ -3161,7 +3230,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Christensen 2002, 10 mg QD PM-Fluvoxamine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Christensen 2002, 10 mg QD PM|Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Christensen 2002.10 mg QD.PM.NO-Fluvoxamine-Peripheral Venous Blood-Plasma-CONC",
+              "X": "Christensen 2002.10 mg QD.PM.non-smoker|TIME",
+              "Y": "Christensen 2002.10 mg QD.PM.non-smoker|ObservedData|Peripheral Venous Blood|Plasma|Fluvoxamine|CONC",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluvoxamine-Model\nChristensen 2002, 10 mg QD PM NA\n2019-11-15 16:15"
+        }
+      ]
     },
     {
       "Name": "Christensen 2002, 25 mg bid EM",
@@ -3325,7 +3463,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Christensen 2002, 25 mg bid EM-Fluvoxamine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Christensen 2002, 25 mg bid EM|Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Christensen 2002.25 mg BID.EM.NO-Fluvoxamine-Peripheral Venous Blood-Plasma-CONC",
+              "X": "Christensen 2002.25 mg BID.EM.non-smoker|TIME",
+              "Y": "Christensen 2002.25 mg BID.EM.non-smoker|ObservedData|Peripheral Venous Blood|Plasma|Fluvoxamine|CONC",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluvoxamine-Model\nChristensen 2002, 25 mg bid EM NA\n2019-11-14 14:07"
+        }
+      ]
     },
     {
       "Name": "Christensen 2002, 25 mg QD PM",
@@ -3453,7 +3660,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Christensen 2002, 25 mg QD PM-Fluvoxamine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Christensen 2002, 25 mg QD PM|Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Christensen 2002.25 mg QD.PM.NO-Fluvoxamine-Peripheral Venous Blood-Plasma-CONC",
+              "X": "Christensen 2002.25 mg QD.PM.non-smoker|TIME",
+              "Y": "Christensen 2002.25 mg QD.PM.non-smoker|ObservedData|Peripheral Venous Blood|Plasma|Fluvoxamine|CONC",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluvoxamine-Model\nChristensen 2002, 25 mg QD PM NA\n2019-11-15 16:15"
+        }
+      ]
     },
     {
       "Name": "Spigset 1997, 50 mg SD EM",
@@ -3545,7 +3821,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Spigset 1997, 50 mg SD EM-Fluvoxamine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Spigset 1997, 50 mg SD EM|Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Spigset 1997.50 mg SD.EM.NO-Fluvoxamine-Peripheral Venous Blood-Plasma-CONC",
+              "X": "Spigset 1997.50 mg SD.EM.non-smoker|TIME",
+              "Y": "Spigset 1997.50 mg SD.EM.non-smoker|ObservedData|Peripheral Venous Blood|Plasma|Fluvoxamine|CONC",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluvoxamine-Model\nSpigset 1997, 50 mg SD EM NA\n2019-11-14 14:07"
+        }
+      ]
     },
     {
       "Name": "Spigset 1997, 50 mg SD PM",
@@ -3637,7 +3982,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Spigset 1997, 50 mg SD PM-Fluvoxamine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Spigset 1997, 50 mg SD PM|Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Spigset 1997.50 mg SD.PM.NO-Fluvoxamine-Peripheral Venous Blood-Plasma-CONC",
+              "X": "Spigset 1997.50 mg SD.PM.non-smoker|TIME",
+              "Y": "Spigset 1997.50 mg SD.PM.non-smoker|ObservedData|Peripheral Venous Blood|Plasma|Fluvoxamine|CONC",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluvoxamine-Model\nSpigset 1997, 50 mg SD PM NA\n2019-11-15 16:16"
+        }
+      ]
     },
     {
       "Name": "Japanese Society of Hospital Pharmacists 2015, 30 mg iv",
@@ -3723,7 +4137,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Japanese Society of Hospital Pharmacists 2015, 30 mg iv-Fluvoxamine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Japanese Society of Hospital Pharmacists 2015, 30 mg iv|Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Japanese Society 2015.30 mg iv.na.na-Fluvoxamine-Peripheral Venous Blood-Plasma-CONC",
+              "X": "Japanese Society 2015.30 mg iv|TIME",
+              "Y": "Japanese Society 2015.30 mg iv|ObservedData|Peripheral Venous Blood|Plasma|Fluvoxamine|CONC",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluvoxamine-Model\nJapanese Society of Hospital Pharmacists 2015, 30 mg iv, NA NA\n2019-11-15 16:47"
+        }
+      ]
     },
     {
       "Name": "de Vries 1992, 50 mg bid",
@@ -4145,7 +4628,87 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "de Vries 1992, 50 mg bid-Fluvoxamine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "de Vries 1992, 50 mg bid|Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "de Vries 1992.50 mg BID.na.na-Fluvoxamine-Peripheral Venous Blood-Plasma-CONC",
+              "X": "de Vries 1992.50 mg BID|TIME",
+              "Y": "de Vries 1992.50 mg BID|ObservedData|Peripheral Venous Blood|Plasma|Fluvoxamine|CONC",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "de Vries 1992 S3816.50 mg BID.na.na-Fluvoxamine-Peripheral Venous Blood-Plasma-CONC",
+              "X": "de Vries 1992 S3816.50 mg BID|TIME",
+              "Y": "de Vries 1992 S3816.50 mg BID|ObservedData|Peripheral Venous Blood|Plasma|Fluvoxamine|CONC",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluvoxamine-Model\nde Vries 1992, 50 mg bid\n2019-11-14 14:00"
+        }
+      ]
     },
     {
       "Name": "Fleishaker 1994, 50/100 mg QD",
@@ -4291,7 +4854,78 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 214.0298,
+              "Max": 257.0879,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Fleishaker 1994, 50/100 mg QD-Fluvoxamine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Fleishaker 1994, 50/100 mg QD|Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Fleishaker 1994.100 mg QD.na.BOTH-Fluvoxamine-Peripheral Venous Blood-Plasma-CONC",
+              "X": "Fleishaker 1994.100 mg QD.smoker/non-smoker|TIME",
+              "Y": "Fleishaker 1994.100 mg QD.smoker/non-smoker|ObservedData|Peripheral Venous Blood|Plasma|Fluvoxamine|CONC",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluvoxamine-Model\nFleishaker 1994, 50/100 mg QD\n2019-11-14 14:00"
+        }
+      ]
     },
     {
       "Name": "Labellarte 2004, 150 mg bid",
@@ -4551,7 +5185,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Labellarte 2004, 150 mg bid-Fluvoxamine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Labellarte 2004, 150 mg bid|Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Labellarte 2004.150 mg BID.EM.na-Fluvoxamine-Peripheral Venous Blood-Plasma-CONC",
+              "X": "Labellarte 2004.150 mg BID.EM|TIME",
+              "Y": "Labellarte 2004.150 mg BID.EM|ObservedData|Peripheral Venous Blood|Plasma|Fluvoxamine|CONC",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluvoxamine-Model\nLabellarte 2004, 150 mg bid\n2019-11-14 14:00"
+        }
+      ]
     },
     {
       "Name": "SENSITIVITY, 300mg QD",
@@ -4687,7 +5390,65 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "SENSITIVITY, 300mg QD-Fluvoxamine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "SENSITIVITY, 300mg QD|Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluvoxamine-Model\nSENSITIVITY, 300mg QD\n2019-11-14 14:01"
+        }
+      ]
     },
     {
       "Name": "Spigset 1998, 12.5/25/50/100 mg bid",
@@ -5127,7 +5888,109 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Spigset 1998, 12.5/25/50/100 mg bid-Fluvoxamine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Spigset 1998, 12.5/25/50/100 mg bid|Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Spigset 1998.100 mg BID.BOTH.NO-Fluvoxamine-Peripheral Venous Blood-Plasma-CONC",
+              "X": "Spigset 1998.100 mg BID.EM/PM.non-smoker|TIME",
+              "Y": "Spigset 1998.100 mg BID.EM/PM.non-smoker|ObservedData|Peripheral Venous Blood|Plasma|Fluvoxamine|CONC",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Spigset 1998.12.5 mg BID.BOTH.NO-Fluvoxamine-Peripheral Venous Blood-Plasma-CONC",
+              "X": "Spigset 1998.12.5 mg BID.EM/PM.non-smoker|TIME",
+              "Y": "Spigset 1998.12.5 mg BID.EM/PM.non-smoker|ObservedData|Peripheral Venous Blood|Plasma|Fluvoxamine|CONC",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Spigset 1998.25 mg BID.BOTH.NO-Fluvoxamine-Peripheral Venous Blood-Plasma-CONC",
+              "X": "Spigset 1998.25 mg BID.EM/PM.non-smoker|TIME",
+              "Y": "Spigset 1998.25 mg BID.EM/PM.non-smoker|ObservedData|Peripheral Venous Blood|Plasma|Fluvoxamine|CONC",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Spigset 1998.50 mg BID.BOTH.NO-Fluvoxamine-Peripheral Venous Blood-Plasma-CONC",
+              "X": "Spigset 1998.50 mg BID.EM/PM.non-smoker|TIME",
+              "Y": "Spigset 1998.50 mg BID.EM/PM.non-smoker|ObservedData|Peripheral Venous Blood|Plasma|Fluvoxamine|CONC",
+              "CurveOptions": {
+                "Color": "#FF8000",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "Bottom",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluvoxamine-Model\nSpigset 1008, 12.5/25/50/100 mg bid\n2019-11-14 14:01"
+        }
+      ]
     },
     {
       "Name": "Spigset 1995, 50 mg SD EM non-smoker",
@@ -5219,7 +6082,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Spigset 1995, 50 mg SD EM non-smoker-Fluvoxamine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Spigset 1995, 50 mg SD EM non-smoker|Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Spigset 1995.50 mg SD.EM.NO-Fluvoxamine-Peripheral Venous Blood-Plasma-CONC",
+              "X": "Spigset 1995.50 mg SD.EM.non-smoker|TIME",
+              "Y": "Spigset 1995.50 mg SD.EM.non-smoker|ObservedData|Peripheral Venous Blood|Plasma|Fluvoxamine|CONC",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluvoxamine-Model\nSpigset 1995, 50 mg SD EM NO\n2019-11-14 14:07"
+        }
+      ]
     },
     {
       "Name": "Spigset 1995, 50 mg SD EM smoker",
@@ -5311,7 +6243,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Spigset 1995, 50 mg SD EM smoker-Fluvoxamine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Spigset 1995, 50 mg SD EM smoker|Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Spigset 1995.50 mg SD.EM.YES-Fluvoxamine-Peripheral Venous Blood-Plasma-CONC",
+              "X": "Spigset 1995.50 mg SD.EM.smoker|TIME",
+              "Y": "Spigset 1995.50 mg SD.EM.smoker|ObservedData|Peripheral Venous Blood|Plasma|Fluvoxamine|CONC",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluvoxamine-Model\nSpigset 1995, 50 mg SD EM YES\n2019-11-15 16:16"
+        }
+      ]
     },
     {
       "Name": "Bahrami 2007, 100 mg SD",
@@ -5403,7 +6404,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Bahrami 2007, 100 mg SD-Fluvoxamine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Bahrami 2007, 100 mg SD|Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Bahrami 2007.100 mg SD.na.NO-Fluvoxamine-Peripheral Venous Blood-Plasma-CONC",
+              "X": "Bahrami 2007.100 mg SD.non-smoker|TIME",
+              "Y": "Bahrami 2007.100 mg SD.non-smoker|ObservedData|Peripheral Venous Blood|Plasma|Fluvoxamine|CONC",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluvoxamine-Model\nBahrami 2007, 100 mg SD NA NA\n2019-11-14 14:03"
+        }
+      ]
     },
     {
       "Name": "de Bree 1983, 100 mg SD",
@@ -5495,7 +6565,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "de Bree 1983, 100 mg SD-Fluvoxamine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "de Bree 1983, 100 mg SD|Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "de Bree 1983.100 mg SD.na.na-Fluvoxamine-Peripheral Venous Blood-Plasma-CONC",
+              "X": "de Bree 1983.100 mg SD|TIME",
+              "Y": "de Bree 1983.100 mg SD|ObservedData|Peripheral Venous Blood|Plasma|Fluvoxamine|CONC",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluvoxamine-Model\nde Bree 1983, 100 mg SD NA NA\n2019-11-14 14:03"
+        }
+      ]
     },
     {
       "Name": "de Vries 1993, 100 mg SD",
@@ -5587,7 +6726,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "de Vries 1993, 100 mg SD-Fluvoxamine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "de Vries 1993, 100 mg SD|Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "de Vries 1993.100 mg SD.na.na-Fluvoxamine-Peripheral Venous Blood-Plasma-CONC",
+              "X": "de Vries 1993.100 mg SD|TIME",
+              "Y": "de Vries 1993.100 mg SD|ObservedData|Peripheral Venous Blood|Plasma|Fluvoxamine|CONC",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluvoxamine-Model\nde Vries 1993, 100 mg SD NA NA\n2019-11-14 14:03"
+        }
+      ]
     },
     {
       "Name": "de Vries 1993, 25 mg SD",
@@ -5679,7 +6887,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "de Vries 1993, 25 mg SD-Fluvoxamine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "de Vries 1993, 25 mg SD|Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "de Vries 1993.25 mg SD.na.na-Fluvoxamine-Peripheral Venous Blood-Plasma-CONC",
+              "X": "de Vries 1993.25 mg SD|TIME",
+              "Y": "de Vries 1993.25 mg SD|ObservedData|Peripheral Venous Blood|Plasma|Fluvoxamine|CONC",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluvoxamine-Model\nde Vries 1993, 25 mg SD NA NA\n2019-11-14 14:03"
+        }
+      ]
     },
     {
       "Name": "de Vries 1993, 50 mg SD",
@@ -5771,7 +7048,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "de Vries 1993, 50 mg SD-Fluvoxamine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "de Vries 1993, 50 mg SD|Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "de Vries 1993.50 mg SD.na.na-Fluvoxamine-Peripheral Venous Blood-Plasma-CONC",
+              "X": "de Vries 1993.50 mg SD|TIME",
+              "Y": "de Vries 1993.50 mg SD|ObservedData|Peripheral Venous Blood|Plasma|Fluvoxamine|CONC",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluvoxamine-Model\nde Vries 1993, 50 mg SD NA NA\n2019-11-14 14:03"
+        }
+      ]
     },
     {
       "Name": "Fukasawa 2006, 50 mg SD EM",
@@ -5863,7 +7209,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Fukasawa 2006, 50 mg SD EM-Fluvoxamine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Fukasawa 2006, 50 mg SD EM|Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Fukasawa 2006.50 mg SD.BOTH.BOTH-Fluvoxamine-Peripheral Venous Blood-Plasma-CONC",
+              "X": "Fukasawa 2006.50 mg SD.EM/PM.smoker/non-smoker|TIME",
+              "Y": "Fukasawa 2006.50 mg SD.EM/PM.smoker/non-smoker|ObservedData|Peripheral Venous Blood|Plasma|Fluvoxamine|CONC",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluvoxamine-Model\nFukasawa 2006, 50 mg SD EM BOTH\n2019-11-14 14:04"
+        }
+      ]
     },
     {
       "Name": "Japanese Society of Hospital Pharmacists 2015, 100 mg SD",
@@ -5955,7 +7370,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Japanese Society of Hospital Pharmacists 2015, 100 mg SD-Fluvoxamine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Japanese Society of Hospital Pharmacists 2015, 100 mg SD|Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Japanese Society 2015.100 mg SD.na.na-Fluvoxamine-Peripheral Venous Blood-Plasma-CONC",
+              "X": "Japanese Society 2015.100 mg SD|TIME",
+              "Y": "Japanese Society 2015.100 mg SD|ObservedData|Peripheral Venous Blood|Plasma|Fluvoxamine|CONC",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluvoxamine-Model\nJapanese Society of Hospital Pharmacists 2015, 100 mg SD NA NA\n2019-11-14 14:04"
+        }
+      ]
     },
     {
       "Name": "Japanese Society of Hospital Pharmacists 2015, 200 mg SD",
@@ -6047,7 +7531,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Japanese Society of Hospital Pharmacists 2015, 200 mg SD-Fluvoxamine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Japanese Society of Hospital Pharmacists 2015, 200 mg SD|Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Japanese Society 2015.200 mg SD.na.na-Fluvoxamine-Peripheral Venous Blood-Plasma-CONC",
+              "X": "Japanese Society 2015.200 mg SD|TIME",
+              "Y": "Japanese Society 2015.200 mg SD|ObservedData|Peripheral Venous Blood|Plasma|Fluvoxamine|CONC",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluvoxamine-Model\nJapanese Society of Hospital Pharmacists 2015, 200 mg SD NA NA\n2019-11-14 14:04"
+        }
+      ]
     },
     {
       "Name": "Japanese Society of Hospital Pharmacists 2015, 25 mg SD",
@@ -6139,7 +7692,78 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 40.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Japanese Society of Hospital Pharmacists 2015, 25 mg SD-Fluvoxamine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Japanese Society of Hospital Pharmacists 2015, 25 mg SD|Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Japanese Society 2015.25 mg SD.na.na-Fluvoxamine-Peripheral Venous Blood-Plasma-CONC",
+              "X": "Japanese Society 2015.25 mg SD|TIME",
+              "Y": "Japanese Society 2015.25 mg SD|ObservedData|Peripheral Venous Blood|Plasma|Fluvoxamine|CONC",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluvoxamine-Model\nJapanese Society of Hospital Pharmacists 2015, 25 mg SD NA NA\n2019-11-14 14:04"
+        }
+      ]
     },
     {
       "Name": "Japanese Society of Hospital Pharmacists 2015, 50 mg SD",
@@ -6231,7 +7855,78 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 40.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Japanese Society of Hospital Pharmacists 2015, 50 mg SD-Fluvoxamine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Japanese Society of Hospital Pharmacists 2015, 50 mg SD|Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Japanese Society 2015.50 mg SD.na.na-Fluvoxamine-Peripheral Venous Blood-Plasma-CONC",
+              "X": "Japanese Society 2015.50 mg SD|TIME",
+              "Y": "Japanese Society 2015.50 mg SD|ObservedData|Peripheral Venous Blood|Plasma|Fluvoxamine|CONC",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluvoxamine-Model\nJapanese Society of Hospital Pharmacists 2015, 50 mg SD NA NA\n2019-11-14 14:05"
+        }
+      ]
     },
     {
       "Name": "Kunii 2005, 50 mg SD EM",
@@ -6323,7 +8018,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Kunii 2005, 50 mg SD EM-Fluvoxamine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Kunii 2005, 50 mg SD EM|Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Kunii 2005.50 mg SD.BOTH.BOTH-Fluvoxamine-Peripheral Venous Blood-Plasma-CONC",
+              "X": "Kunii 2005.50 mg SD.EM/PM.smoker/non-smoker|TIME",
+              "Y": "Kunii 2005.50 mg SD.EM/PM.smoker/non-smoker|ObservedData|Peripheral Venous Blood|Plasma|Fluvoxamine|CONC",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluvoxamine-Model\nKunii 2005, 50 mg SD EM BOTH\n2019-11-14 14:05"
+        }
+      ]
     },
     {
       "Name": "Orlando 2010, 50 mg SD",
@@ -6415,7 +8179,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Orlando 2010, 50 mg SD-Fluvoxamine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Orlando 2010, 50 mg SD|Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Orlando 2010.50 mg SD.na.na-Fluvoxamine-Peripheral Venous Blood-Plasma-CONC",
+              "X": "Orlando 2010.50 mg SD|TIME",
+              "Y": "Orlando 2010.50 mg SD|ObservedData|Peripheral Venous Blood|Plasma|Fluvoxamine|CONC",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluvoxamine-Model\nOrlando 2010, 50 mg SD NA NA\n2019-11-14 14:05"
+        }
+      ]
     },
     {
       "Name": "van Harten 1991, 50 mg SD",
@@ -6507,7 +8340,76 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "van Harten 1991, 50 mg SD-Fluvoxamine-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "van Harten 1991, 50 mg SD|Organism|PeripheralVenousBlood|Fluvoxamine|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "van Harten 1991.50 mg SD.na.na-Fluvoxamine-Peripheral Venous Blood-Plasma-CONC",
+              "X": "van Harten 1991.50 mg SD|TIME",
+              "Y": "van Harten 1991.50 mg SD|ObservedData|Peripheral Venous Blood|Plasma|Fluvoxamine|CONC",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Fluvoxamine-Model\nvan Harten 1991, 50 mg SD NA NA\n2019-11-14 14:05"
+        }
+      ]
     }
   ],
   "ObservedData": [
