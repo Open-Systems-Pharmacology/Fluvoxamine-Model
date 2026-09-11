@@ -1,6 +1,7 @@
 {
   "Name": "Fluvoxamine-Model",
   "Version": 81,
+  "ApplicationName": "PK-Sim",
   "ExpressionProfiles": [
     {
       "Type": "Enzyme",
@@ -13638,6 +13639,5 @@
         "van Harten 1991, 50 mg SD"
       ]
     }
-  ],
-  "ApplicationName": "PK-Sim"
+  ]
 }
